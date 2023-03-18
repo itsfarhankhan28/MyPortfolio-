@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import HamMenu from './Components/HamMenu';
+import Herosection from './Components/Herosection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HamMenu/>
+      <Herosection heading1="Hello" heading2="I am Farhan Khan"
+      para1="A passionate and motivated web" para2="developer . I am dedicated to creating"
+      para3="user friendly , visually appealing and" para4="responsive website."/>
+    </>
   );
 }
 
