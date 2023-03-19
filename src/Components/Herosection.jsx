@@ -55,7 +55,7 @@ const Herosection = (props) => {
     <>
       <div className='bg-custom-brown h-[100vh] flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid 2xl:grid-cols-2 lg:grid-cols-1 max-w-[1200px] h-[600px] '>
+        <div className='grid 2xl:gap-0 xl:gap-0 lg:gap-10 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1200px] xl:max-w-[1200px] lg:max-w-[1200px] h-[600px] '>
             <div>
                 <div>
                     <img src={img1} alt="" />
@@ -129,18 +129,14 @@ const Herosection = (props) => {
                   }
                 }}  
                 className='relative bottom-[710px] left-[300px]' src={langimg4} alt="" />
-                    {/* <img src={langimg1} alt="" />
-                    <img src={langimg2} alt="" />
-                    <img src={langimg3} alt="" />
-                    <img src={langimg4} alt="" /> */}
                 </div>
             </div>
             <motion.div
             variants={container}
             initial='hidden'
             animate='visible'
-            className='relative 2xl:top-[13%] lg:top-0 items-center font-herofont leading-[50px]'>
-              <h1 className='text-[40px]'>{word1.map((word, index)=>{
+            className='relative 2xl:top-[13%] xl:top-[13%] lg:top-[13%] items-center font-herofont leading-[50px]'>
+              <h1 className='2xl:text-[40px] xl:text-[40px] lg:text-[30px]'>{word1.map((word, index)=>{
                 return(
                   <motion.span
                   className='flex overflow-hidden'
@@ -150,7 +146,7 @@ const Herosection = (props) => {
                   </motion.span>
                 )
               })}</h1>
-                <h1 className='text-[70px] tracking-tighter pt-3 flex flex-row'>{word2.map((words , index)=>{
+                <h1 className='2xl:text-[70px] xl:text-[70px] lg:text-[50px] tracking-tighter pt-3 flex flex-row'>{word2.map((words , index)=>{
                   return(
                     <motion.span
                     key={index}
@@ -160,7 +156,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <p className='text-[25px] leading-9 pt-5'><h1 className='flex flex-row'>{paragraph1.map((par1,index)=>{
+                <p className='2xl:text-[25px] xl:text-[25px] lg:text-[20px] 2xl:leading-9 xl:leading-9 lg:leading-8 pt-5'><h1 className='flex flex-row'>{paragraph1.map((par1,index)=>{
                   return(
                     <motion.span
                     key={index}
