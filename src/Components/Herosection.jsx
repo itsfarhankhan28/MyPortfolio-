@@ -55,10 +55,10 @@ const Herosection = (props) => {
     <>
       <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid 2xl:gap-0 xl:gap-0  2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1200px] xl:max-w-[1200px] lg:max-w-[800px] 2xl:h-[600px]  xl:h-[600px]  lg:h-[400px]'>
+        <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1200px] xl:max-w-[1200px] lg:max-w-[800px] 2xl:h-[600px]  xl:h-[600px]  lg:h-[400px]'>
             <div>
                 <div>
-                    <img className='2xl:h-0 2xl:w-0 lg:h-[400px]' src={img1} alt="" />
+                    <img className='2xl:h-[550px] xl:h-[550px] lg:h-[400px]' src={img1} alt="" />
                 </div>
                 <div className='relative'>
                 <motion.img
@@ -77,7 +77,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }} 
-                className='absolute bottom-[170px] left-[320px] lg:w-[150px]' src={langimg1} alt="" />
+                className='absolute lg:bottom-[170px] lg:left-[320px] 2xl:bottom-[330px] xl:bottom-[330px] 2xl:w-[200px] lg:w-[150px]' src={langimg1} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -94,7 +94,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute bottom-[120px] right-[100px] lg:w-[200px]' src={langimg2} alt="" />
+                className='absolute lg:bottom-[120px] lg:right-[100px] 2xl:w-[250px] lg:w-[200px]' src={langimg2} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -111,7 +111,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute bottom-[200px] right-[20px] lg:w-[100px]' src={langimg3} alt="" />
+                className='absolute lg:bottom-[200px] lg:right-[20px] 2xl:w-[130px] xl:w-[130px] lg:w-[100px]' src={langimg3} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -128,7 +128,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute bottom-[100px] left-[200px] lg:w-[150px]' src={langimg4} alt="" />
+                className='absolute lg:bottom-[100px] lg:left-[200px] 2xl:left-[270px] xl:left-[270px] 2xl:w-[220px] lg:w-[150px]' src={langimg4} alt="" />
                 </div>
             </div>
             <motion.div
