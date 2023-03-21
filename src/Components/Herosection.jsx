@@ -135,7 +135,7 @@ const Herosection = (props) => {
             variants={container}
             initial='hidden'
             animate='visible'
-            className='relative 2xl:top-[13%] xl:top-[13%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
+            className='relative 2xl:top-[18%] xl:top-[18%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
               <h1 className='2xl:text-[40px] xl:text-[40px] lg:text-[30px]'>{word1.map((word, index)=>{
                 return(
                   <motion.span
