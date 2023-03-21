@@ -53,14 +53,14 @@ const Herosection = (props) => {
 
   return (
     <>
-      <div className='bg-custom-brown h-[100vh] flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
+      <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid 2xl:gap-0 xl:gap-0 lg:gap-10 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1200px] xl:max-w-[1200px] lg:max-w-[1200px] h-[600px] '>
+        <div className='grid 2xl:gap-0 xl:gap-0  2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1200px] xl:max-w-[1200px] lg:max-w-[800px] 2xl:h-[600px]  xl:h-[600px]  lg:h-[400px]'>
             <div>
                 <div>
-                    <img src={img1} alt="" />
+                    <img className='2xl:h-0 2xl:w-0 lg:h-[400px]' src={img1} alt="" />
                 </div>
-                <div className=''>
+                <div className='relative'>
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -77,7 +77,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }} 
-                className='relative bottom-[470px] left-[320px]' src={langimg1} alt="" />
+                className='absolute bottom-[170px] left-[320px] lg:w-[150px]' src={langimg1} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -94,7 +94,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='relative bottom-[320px] right-[100px]' src={langimg2} alt="" />
+                className='absolute bottom-[120px] right-[100px] lg:w-[200px]' src={langimg2} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -111,7 +111,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='relative bottom-[700px] right-[20px]' src={langimg3} alt="" />
+                className='absolute bottom-[200px] right-[20px] lg:w-[100px]' src={langimg3} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -128,14 +128,14 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='relative bottom-[710px] left-[300px]' src={langimg4} alt="" />
+                className='absolute bottom-[100px] left-[200px] lg:w-[150px]' src={langimg4} alt="" />
                 </div>
             </div>
             <motion.div
             variants={container}
             initial='hidden'
             animate='visible'
-            className='relative 2xl:top-[13%] xl:top-[13%] lg:top-[13%] items-center font-herofont leading-[50px]'>
+            className='relative 2xl:top-[13%] xl:top-[13%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
               <h1 className='2xl:text-[40px] xl:text-[40px] lg:text-[30px]'>{word1.map((word, index)=>{
                 return(
                   <motion.span
@@ -146,7 +146,7 @@ const Herosection = (props) => {
                   </motion.span>
                 )
               })}</h1>
-                <h1 className='2xl:text-[70px] xl:text-[70px] lg:text-[50px] tracking-tighter pt-3 flex flex-row'>{word2.map((words , index)=>{
+                <h1 className='2xl:text-[70px] xl:text-[70px] lg:text-[40px] tracking-tighter pt-3 flex flex-row'>{word2.map((words , index)=>{
                   return(
                     <motion.span
                     key={index}
@@ -156,7 +156,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <p className='2xl:text-[25px] xl:text-[25px] lg:text-[20px] 2xl:leading-9 xl:leading-9 lg:leading-8 pt-5'><h1 className='flex flex-row'>{paragraph1.map((par1,index)=>{
+                <p className='2xl:text-[25px] xl:text-[25px] lg:text-[18px] 2xl:leading-9 xl:leading-9 lg:leading-7 2xl:pt-5 lg:pt-2'><h1 className='flex flex-row'>{paragraph1.map((par1,index)=>{
                   return(
                     <motion.span
                     key={index}
