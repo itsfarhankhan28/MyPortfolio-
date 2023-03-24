@@ -55,10 +55,10 @@ const Herosection = (props) => {
     <>
       <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1100px] lg:max-w-[800px] 2xl:h-[600px]  lg:h-[400px]'>
+        <div className='grid lg:grid-cols-2 2xl:max-w-[1100px] lg:max-w-[800px] 2xl:h-[600px] lg:h-[400px] xxsm:h-[450px]'>
             <div>
                 <div>
-                    <img className='2xl:h-[550px] lg:h-[400px]' src={img1} alt="" />
+                    <img className='2xl:h-[550px] lg:h-[400px] xxsm:h-[200px]' src={img1} alt="" />
                 </div>
                 <div className='relative'>
                 <motion.img
@@ -135,18 +135,18 @@ const Herosection = (props) => {
             variants={container}
             initial='hidden'
             animate='visible'
-            className='relative 2xl:top-[18%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
-              <h1 className='2xl:text-[40px] lg:text-[30px]'>{word1.map((word, index)=>{
+            className='relative 2xl:top-[18%] lg:top-[22%] lg:items-center font-herofont 2xl:leading-[50px] lg:leading-[30px] lg:mx-0 xxsm:mx-auto'>
+              <h1 className='2xl:text-[40px] lg:text-[30px] lg:text-left xxsm:text-center'>{word1.map((word, index)=>{
                 return(
                   <motion.span
-                  className='flex overflow-hidden'
+                  className='flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center overflow-hidden'
                   variants={child} 
                   key={index}>
                     {word}
                   </motion.span>
                 )
               })}</h1>
-                <h1 className='2xl:text-[70px] lg:text-[40px] tracking-tighter pt-3 flex flex-row'>{word2.map((words , index)=>{
+                <h1 className='2xl:text-[70px] lg:text-[40px] tracking-tighter pt-3 flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center flex-row'>{word2.map((words , index)=>{
                   return(
                     <motion.span
                     key={index}
@@ -156,7 +156,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <p className='2xl:text-[25px] lg:text-[18px] 2xl:leading-9 lg:leading-7 2xl:pt-5 lg:pt-2'><h1 className='flex flex-row'>{paragraph1.map((par1,index)=>{
+                <p className='2xl:text-[25px] lg:text-[18px] 2xl:leading-9 lg:leading-7 2xl:pt-5 lg:pt-2'><h1 className='flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center flex-row'>{paragraph1.map((par1,index)=>{
                   return(
                     <motion.span
                     key={index}
@@ -166,7 +166,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <h1 className='flex flex-row'> {paragraph2.map((par2,index)=>{
+                <h1 className='flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center flex-row'> {paragraph2.map((par2,index)=>{
                   return(
                     <motion.span
                     key={index}
@@ -176,7 +176,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <h1 className='flex flex-row'>{paragraph3.map((par3 , index)=>{
+                <h1 className='flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center flex-row'>{paragraph3.map((par3 , index)=>{
                   return(
                     <motion.span
                     key={index}
@@ -186,7 +186,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <h1 className='flex flex-row'> {paragraph4.map((par4,index)=>{
+                <h1 className='flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center flex-row'> {paragraph4.map((par4,index)=>{
                   return(
                     <motion.span
                     variants={child}
@@ -199,9 +199,9 @@ const Herosection = (props) => {
             </motion.div>
         </div>
         <div className='max-w-[1200px] h-[50px] text-center flex items-center justify-center '>
-          <img className='w-[50px] ' src={scrollicon} alt="" />
+          <img className='md:w-[50px] xxsm:w-[25px]' src={scrollicon} alt="" />
           <div>
-            <h1 className='text-lg font-semibold font-herofont'>SCROLL DOWN</h1>
+            <h1 className='md:text-lg md:font-semibold font-herofont'>SCROLL DOWN</h1>
           </div> 
         </div>
         </div>
