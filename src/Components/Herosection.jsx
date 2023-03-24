@@ -55,10 +55,10 @@ const Herosection = (props) => {
     <>
       <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid 2xl:gap-0 xl:gap-0  2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1200px] xl:max-w-[1200px] lg:max-w-[800px] 2xl:h-[600px]  xl:h-[600px]  lg:h-[400px]'>
+        <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1100px] xl:max-w-[1200px] lg:max-w-[800px] 2xl:h-[600px]  xl:h-[600px]  lg:h-[400px]'>
             <div>
                 <div>
-                    <img className='2xl:h-0 2xl:w-0 lg:h-[400px]' src={img1} alt="" />
+                    <img className='2xl:h-[550px] xl:h-[550px] lg:h-[400px]' src={img1} alt="" />
                 </div>
                 <div className='relative'>
                 <motion.img
@@ -77,7 +77,11 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }} 
+<<<<<<< HEAD
                 className='absolute lg:bottom-[230px] lg:left-[220px] lg:w-[150px]' src={langimg1} alt="" />
+=======
+                className='absolute lg:bottom-[170px] lg:left-[320px] 2xl:bottom-[330px] 2xl:left-[300px] xl:left-[300px] xl:bottom-[330px] 2xl:w-[200px] lg:w-[150px]' src={langimg1} alt="" />
+>>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -94,7 +98,11 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
+<<<<<<< HEAD
                 className='absolute lg:bottom-[30px] lg:right-[230px] lg:w-[230px]' src={langimg2} alt="" />
+=======
+                className='absolute lg:bottom-[120px] lg:right-[100px] 2xl:bottom-[30px] xl:bottom-[30px] 2xl:right-[360px] 2xl:w-[250px] lg:w-[200px]' src={langimg2} alt="" />
+>>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -111,7 +119,11 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
+<<<<<<< HEAD
                 className='absolute lg:bottom-[220px] lg:right-[320px] lg:w-[100px]' src={langimg3} alt="" />
+=======
+                className='absolute lg:bottom-[200px] lg:right-[20px] 2xl:w-[110px] xl:w-[130px] lg:w-[100px] 2xl:bottom-[250px] xl:bottom-[250px] 2xl:right-[450px]' src={langimg3} alt="" />
+>>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -128,14 +140,18 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
+<<<<<<< HEAD
                 className='absolute lg:bottom-[100px] lg:left-[220px] lg:w-[150px]' src={langimg4} alt="" />
+=======
+                className='absolute lg:bottom-[100px] lg:left-[200px] 2xl:left-[300px] 2xl:bottom-[150px] xl:left-[270px] 2xl:w-[220px] lg:w-[150px]' src={langimg4} alt="" />
+>>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 </div>
             </div>
             <motion.div
             variants={container}
             initial='hidden'
             animate='visible'
-            className='relative 2xl:top-[13%] xl:top-[13%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
+            className='relative 2xl:top-[18%] xl:top-[18%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
               <h1 className='2xl:text-[40px] xl:text-[40px] lg:text-[30px]'>{word1.map((word, index)=>{
                 return(
                   <motion.span
