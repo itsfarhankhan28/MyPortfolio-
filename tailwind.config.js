@@ -3,13 +3,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
     debugScreens: {
-      position: ['bottom', 'left'],
       selector: '.debug-screens',
+      position: ['bottom', 'left'],
       style: {
-        backgroundColor: 'black',
-        color: 'white',
-        fontSize: '15px',
+        backgroundColor: '#C0FFEE',
+        color: 'black',
       },
+      prefix: 'screen: ',
+
     },
     screens: {
       xxsm: '320px',
@@ -33,5 +34,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-debug-screens'),
+  ]
 }
