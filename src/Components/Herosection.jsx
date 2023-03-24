@@ -77,11 +77,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }} 
-<<<<<<< HEAD
-                className='absolute lg:bottom-[230px] lg:left-[220px] lg:w-[150px]' src={langimg1} alt="" />
-=======
                 className='absolute lg:bottom-[170px] lg:left-[320px] 2xl:bottom-[330px] 2xl:left-[300px] xl:left-[300px] xl:bottom-[330px] 2xl:w-[200px] lg:w-[150px]' src={langimg1} alt="" />
->>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -98,11 +94,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-<<<<<<< HEAD
-                className='absolute lg:bottom-[30px] lg:right-[230px] lg:w-[230px]' src={langimg2} alt="" />
-=======
                 className='absolute lg:bottom-[120px] lg:right-[100px] 2xl:bottom-[30px] xl:bottom-[30px] 2xl:right-[360px] 2xl:w-[250px] lg:w-[200px]' src={langimg2} alt="" />
->>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -119,11 +111,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-<<<<<<< HEAD
-                className='absolute lg:bottom-[220px] lg:right-[320px] lg:w-[100px]' src={langimg3} alt="" />
-=======
                 className='absolute lg:bottom-[200px] lg:right-[20px] 2xl:w-[110px] xl:w-[130px] lg:w-[100px] 2xl:bottom-[250px] xl:bottom-[250px] 2xl:right-[450px]' src={langimg3} alt="" />
->>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -140,11 +128,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-<<<<<<< HEAD
-                className='absolute lg:bottom-[100px] lg:left-[220px] lg:w-[150px]' src={langimg4} alt="" />
-=======
                 className='absolute lg:bottom-[100px] lg:left-[200px] 2xl:left-[300px] 2xl:bottom-[150px] xl:left-[270px] 2xl:w-[220px] lg:w-[150px]' src={langimg4} alt="" />
->>>>>>> 29971724df3a72af533264b675848c8ad3055d0e
                 </div>
             </div>
             <motion.div
