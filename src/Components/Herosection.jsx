@@ -77,7 +77,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }} 
-                className='absolute bottom-[170px] left-[320px] lg:w-[150px]' src={langimg1} alt="" />
+                className='absolute lg:bottom-[230px] lg:left-[220px] lg:w-[150px]' src={langimg1} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -94,7 +94,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute bottom-[120px] right-[100px] lg:w-[200px]' src={langimg2} alt="" />
+                className='absolute lg:bottom-[30px] lg:right-[230px] lg:w-[230px]' src={langimg2} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -111,7 +111,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute bottom-[200px] right-[20px] lg:w-[100px]' src={langimg3} alt="" />
+                className='absolute lg:bottom-[220px] lg:right-[320px] lg:w-[100px]' src={langimg3} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -128,7 +128,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute bottom-[100px] left-[200px] lg:w-[150px]' src={langimg4} alt="" />
+                className='absolute lg:bottom-[100px] lg:left-[220px] lg:w-[150px]' src={langimg4} alt="" />
                 </div>
             </div>
             <motion.div
