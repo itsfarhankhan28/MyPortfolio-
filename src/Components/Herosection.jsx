@@ -55,10 +55,10 @@ const Herosection = (props) => {
     <>
       <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1100px] xl:max-w-[1200px] lg:max-w-[800px] 2xl:h-[600px]  xl:h-[600px]  lg:h-[400px]'>
+        <div className='grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:max-w-[1100px] lg:max-w-[800px] 2xl:h-[600px]  lg:h-[400px]'>
             <div>
                 <div>
-                    <img className='2xl:h-[550px] xl:h-[550px] lg:h-[400px]' src={img1} alt="" />
+                    <img className='2xl:h-[550px] lg:h-[400px]' src={img1} alt="" />
                 </div>
                 <div className='relative'>
                 <motion.img
@@ -77,7 +77,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }} 
-                className='absolute lg:bottom-[250px] lg:left-[220px] 2xl:bottom-[330px] 2xl:left-[300px] xl:left-[300px] xl:bottom-[330px] 2xl:w-[200px] lg:w-[150px]' src={langimg1} alt="" />
+                className='absolute lg:bottom-[250px] lg:left-[220px] 2xl:bottom-[330px] 2xl:left-[300px] lg:w-[150px]' src={langimg1} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -94,7 +94,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute lg:bottom-[10px] lg:right-[240px] 2xl:bottom-[30px] xl:bottom-[30px] 2xl:right-[360px] 2xl:w-[250px] lg:w-[200px]' src={langimg2} alt="" />
+                className='absolute lg:bottom-[10px] lg:right-[240px] 2xl:bottom-[30px] 2xl:right-[360px] 2xl:w-[250px] lg:w-[200px]' src={langimg2} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -111,7 +111,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute lg:bottom-[200px] lg:right-[320px] 2xl:w-[110px] xl:w-[130px] lg:w-[80px] 2xl:bottom-[250px] xl:bottom-[250px] 2xl:right-[450px]' src={langimg3} alt="" />
+                className='absolute lg:bottom-[200px] lg:right-[320px] 2xl:w-[110px] lg:w-[80px] 2xl:bottom-[250px] 2xl:right-[450px]' src={langimg3} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
@@ -128,15 +128,15 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }}  
-                className='absolute lg:bottom-[100px] lg:left-[220px] 2xl:left-[300px] 2xl:bottom-[150px] xl:left-[270px] 2xl:w-[220px] lg:w-[150px]' src={langimg4} alt="" />
+                className='absolute lg:bottom-[100px] lg:left-[220px] 2xl:left-[300px] 2xl:bottom-[150px] 2xl:w-[220px] lg:w-[150px]' src={langimg4} alt="" />
                 </div>
             </div>
             <motion.div
             variants={container}
             initial='hidden'
             animate='visible'
-            className='relative 2xl:top-[18%] xl:top-[18%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
-              <h1 className='2xl:text-[40px] xl:text-[40px] lg:text-[30px]'>{word1.map((word, index)=>{
+            className='relative 2xl:top-[18%] lg:top-[22%] items-center font-herofont 2xl:leading-[50px] lg:leading-[30px]'>
+              <h1 className='2xl:text-[40px] lg:text-[30px]'>{word1.map((word, index)=>{
                 return(
                   <motion.span
                   className='flex overflow-hidden'
@@ -146,7 +146,7 @@ const Herosection = (props) => {
                   </motion.span>
                 )
               })}</h1>
-                <h1 className='2xl:text-[70px] xl:text-[70px] lg:text-[40px] tracking-tighter pt-3 flex flex-row'>{word2.map((words , index)=>{
+                <h1 className='2xl:text-[70px] lg:text-[40px] tracking-tighter pt-3 flex flex-row'>{word2.map((words , index)=>{
                   return(
                     <motion.span
                     key={index}
@@ -156,7 +156,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <p className='2xl:text-[25px] xl:text-[25px] lg:text-[18px] 2xl:leading-9 xl:leading-9 lg:leading-7 2xl:pt-5 lg:pt-2'><h1 className='flex flex-row'>{paragraph1.map((par1,index)=>{
+                <p className='2xl:text-[25px] lg:text-[18px] 2xl:leading-9 lg:leading-7 2xl:pt-5 lg:pt-2'><h1 className='flex flex-row'>{paragraph1.map((par1,index)=>{
                   return(
                     <motion.span
                     key={index}
