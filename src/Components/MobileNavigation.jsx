@@ -21,10 +21,15 @@ const MobileNavigation = () => {
 
   return (
     <>
+    <div className='flex justify-items items-center'>
+      <div className='absolute left-[3%]'>
+        <h1 className='text-3xl font-herofont'>Fk</h1>
+      </div>
       <nav className='md:hidden bg-blue-300 flex items-center'>
         {isOpen ? CloseIcon : HamburgerMenu}
         {isOpen && <NavLinks/>}
       </nav>
+      </div>
     </>
   )
 }
