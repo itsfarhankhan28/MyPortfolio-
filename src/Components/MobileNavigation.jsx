@@ -10,13 +10,13 @@ const MobileNavigation = () => {
   const HamburgerMenu = <GiHamburgerMenu 
                         color='black' 
                         size='40px' 
-                        className='absolute right-[5%] cursor-pointer p-3 h-[50px] w-[50px]' 
+                        className='absolute right-[3%] cursor-pointer p-3 h-[50px] w-[50px]' 
                         onClick={()=>setisOpen(!isOpen)}/>
 
   const CloseIcon = <AiOutlineClose 
                     color='black' 
                     size='40px' 
-                    className='absolute right-[5%] cursor-pointer z-20 p-3 h-[50px] w-[50px]' 
+                    className='absolute right-[3%] cursor-pointer z-20 p-3 h-[50px] w-[50px]' 
                     onClick={()=>setisOpen(!isOpen)}/>
 
   return (
