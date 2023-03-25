@@ -156,7 +156,7 @@ const Herosection = (props) => {
                     </motion.span>
                   )
                 })}</h1>
-                <p className='2xl:text-[25px] md:text-[18px] xxsm:text-[18px] 2xl:leading-9 lg:leading-7 2xl:pt-5 lg:pt-2 xxsm:pt-1'><h1 className='flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center flex-row'>{paragraph1.map((par1,index)=>{
+                <p className='2xl:text-[25px] md:text-[18px] xxsm:text-[15px] xsm:text-[20px] 2xl:leading-9 lg:leading-7 2xl:pt-5 lg:pt-2 xxsm:pt-1'><h1 className='flex lg:items-start lg:justify-start xxsm:items-center xxsm:justify-center flex-row'>{paragraph1.map((par1,index)=>{
                   return(
                     <motion.span
                     key={index}
