@@ -55,7 +55,7 @@ const Herosection = (props) => {
     <>
       <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid lg:grid-cols-2 2xl:max-w-[1100px] lg:max-w-[800px] 2xl:h-[600px] lg:h-[400px] xxsm:h-[600px] md:mt-0 xxsm:mt-5'>
+        <div className='grid lg:grid-cols-2 2xl:max-w-[1100px] lg:max-w-[800px] 2xl:h-[600px] lg:h-[400px] xxsm:h-[550px] md:mt-0 xxsm:mt-5'>
             <div>
                 <div className='flex lg:justify-start xxsm:justify-center'>
                     <img className='2xl:h-[550px] lg:h-[400px] xxsm:h-[300px] lg:mt-0 xxsm:mt-10' src={img1} alt="" />
@@ -146,7 +146,7 @@ const Herosection = (props) => {
                   </motion.span>
                 )
               })}</h1>
-                <h1 className='2xl:text-[70px] md:text-[40px] xxsm:text-[30px] md:pt-3 xxsm:pt-1 flex xxsm:justify-center flex-row'>{word2.map((words , index)=>{
+                <h1 className='2xl:text-[70px] md:text-[40px] xxsm:text-[30px] md:pt-3 xxsm:pt-1 flex xxsm:justify-center lg:justify-start flex-row'>{word2.map((words , index)=>{
                   return(
                     <motion.span
                     key={index}
