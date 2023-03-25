@@ -1,11 +1,11 @@
 import './App.css';
-import HamMenu from './Components/HamMenu';
 import Herosection from './Components/Herosection';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <>
-      <HamMenu/>
+      <Navbar/>
       <Herosection heading1="Hello" heading2="I am Farhan Khan"
       para1="A passionate and motivated web" para2="developer . I am dedicated to creating"
       para3="user friendly , visually appealing and" para4="responsive website."/>
