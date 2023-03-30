@@ -31,6 +31,7 @@ module.exports = {
       },
       colors:{
         'custom-brown':'#E3DFDB',
+        'custom-warm':'#F3DEBA'
       }
     },
   },
