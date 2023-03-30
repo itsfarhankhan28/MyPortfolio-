@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from './Carousel'
 import { v4 as uuidv4 } from "uuid";
 import Card from './ProjectCards';
-// import ProjectImg1 from '../Assets/Project1 Demo.png'
+import ProjectImg1 from '../Assets/Project1 Demo.png'
 
 const Projects = () => {
 
@@ -10,7 +10,7 @@ const Projects = () => {
     {
       key:uuidv4(),
       content:(
-        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack" image="../Assets/Project1 Demo.png"/>
+        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack" image={ProjectImg1}/>
       )
     },
     {
