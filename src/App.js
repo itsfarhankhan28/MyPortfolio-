@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import { ScrollerMotion } from 'scroller-motion';
-import SmoothScroll from './Components/SmoothScroll';
+// import SmoothScroll from './Components/SmoothScroll';
 
 function App() {
   return (
