@@ -10,7 +10,7 @@ const Projects = () => {
     {
       key:uuidv4(),
       content:(
-        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg1}/>
+        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg1} projectTitle="All About Recipe"/>
       )
     },
     {
