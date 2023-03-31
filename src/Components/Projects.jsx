@@ -10,7 +10,7 @@ const Projects = () => {
     {
       key:uuidv4(),
       content:(
-        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack" image={ProjectImg1}/>
+        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg1}/>
       )
     },
     {
@@ -42,8 +42,8 @@ const Projects = () => {
   return (
     <>
     <div className='overflow-hidden bg-custom-brown'>
-      {/* <h1 className='font-herofont text-3xl text-center pt-10'>My Work</h1> */}
-      <div className='flex justify-center items-center h-[100vh]'>
+      <div className='flex justify-center items-center flex-col h-[100vh]'>
+      <h1 className='font-herofont text-3xl font-semibold text-center pt-10'>My Work</h1>
         <Carousel
           cards={cards}
           height="500px"
