@@ -1,6 +1,7 @@
 // import Styles from "./Card.module.css";
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
+import Button from "./Button";
 // import Button from "./Button";
 
 function Card(props) {
@@ -27,15 +28,17 @@ function Card(props) {
       </div>
       <div className="border-solid border-2 border-gray-100 rounded-xl my-3"></div>
       <div className="grid grid-cols-2 gap-10">
-        <p className="font-herofont">
-          {props.projectInfo}
-        </p>
-        <img src={props.image} alt="" />
+        <div className="font-herofont">
+          <h1 className="font-semibold text-2xl my-1">{props.projectTitle}</h1>
+          <p >
+            {props.projectInfo}
+          </p>
+          <Button btnName="View Source Code"/>
+        </div>
+        <div>
+          <img className="mt-10" src={props.image} alt="" />
+        </div>
       </div>
-      {/* <div className={Styles.btnn}>
-        <Button text="Demo" />
-        <Button text="Code" />
-      </div> */}
     </animated.div>
   );
 }
