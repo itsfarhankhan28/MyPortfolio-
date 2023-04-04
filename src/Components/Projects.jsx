@@ -12,13 +12,13 @@ const Projects = () => {
     {
       key:uuidv4(),
       content:(
-        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg1} projectTitle="All About Recipe" link="https://www.sitepoint.com/github-profile-readme/"/>
+        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg1} projectTitle="All About Recipe" link="https://github.com/itsfarhankhan28/RecipeWebsite"/>
       )
     },
     {
       key:uuidv4(),
       content:(
-        <Card serialNo="02" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg2} projectTitle="Clone Website"/>
+        <Card serialNo="02" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg2} projectTitle="Clone Website" link="https://github.com/itsfarhankhan28/CloneWeb"/>
       )
     },
     {
