@@ -16,7 +16,7 @@ function Card(props) {
   return (
     <animated.div
       // className={Styles.card}
-      className='flex flex-col justify-center w-[30rem] h-fit rounded-[10px] bg-custom-warm p-3'
+      className='flex flex-col justify-center md:w-[30rem] xxsm:w-[18rem] h-fit rounded-[10px] bg-custom-warm p-3'
       style={props3}
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
@@ -27,13 +27,13 @@ function Card(props) {
       <h1 className="font-herofont text-[80px] text-semibold">{props.serialNo}</h1>
       </div>
       <div className="border-solid border-2 border-gray-100 rounded-xl my-3"></div>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="flex md:flex-row xxsm:flex-col md:gap-10">
         <div className="font-herofont">
           <h1 className="font-semibold text-2xl my-1">{props.projectTitle}</h1>
           <p >
             {props.projectInfo}
           </p>
-          <Button btnName="View Source Code"/>
+          <Button btnName="View Source Code" btnlink={props.link}/>
         </div>
         <div>
           <img className="mt-10" src={props.image} alt="" />
