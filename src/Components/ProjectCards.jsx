@@ -16,7 +16,7 @@ function Card(props) {
   return (
     <animated.div
       // className={Styles.card}
-      className='flex flex-col justify-center md:w-[30rem] xxsm:w-[18rem] h-fit rounded-[10px] bg-custom-warm p-3'
+      className='flex flex-col justify-center md:w-[35rem] xxsm:w-[18rem] h-fit rounded-[10px] bg-custom-warm p-3'
       style={props3}
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
@@ -28,14 +28,14 @@ function Card(props) {
       </div>
       <div className="border-solid border-2 border-gray-100 rounded-xl md:my-3"></div>
       <div className="flex md:flex-row xxsm:flex-col-reverse md:justify-start md:items-start xxsm:justify-center xxsm:items-center md:gap-10">
-        <div className="font-herofont md:w-[50%] md:text-left xxsm:text-center">
+        <div className="font-herofont md:w-[55%] md:text-left xxsm:text-center">
           <h1 className="font-semibold md:text-2xl xxsm:text-xl my-1">{props.projectTitle}</h1>
           <p className="md:text-lg xxsm:text-[15px]">
             {props.projectInfo}
           </p>
           <Button btnName="View Source Code" btnlink={props.link}/>
         </div>
-        <div className="w-[50%]">
+        <div className="w-[45%]">
           <img className="md:mt-10" src={props.image} alt="" />
         </div>
       </div>
