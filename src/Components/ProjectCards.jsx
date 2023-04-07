@@ -22,15 +22,15 @@ function Card(props) {
       onMouseLeave={() => setShown(false)}
     >
       {/* <img src={imagen} alt="" /> */}
-      <div className="leading-[80px]">
-      <h1 className="font-herofont text-2xl">Project</h1>
-      <h1 className="font-herofont text-[80px] text-semibold">{props.serialNo}</h1>
+      <div className="md:leading-[80px] xxsm:leading-[50px]">
+      <h1 className="font-herofont md:text-2xl xxsm:text-xl">Project</h1>
+      <h1 className="font-herofont md:text-[80px] xxsm:text-[50px] text-semibold">{props.serialNo}</h1>
       </div>
       <div className="border-solid border-2 border-gray-100 rounded-xl md:my-3"></div>
       <div className="flex md:flex-row xxsm:flex-col-reverse md:justify-start md:items-start xxsm:justify-center xxsm:items-center md:gap-10">
         <div className="font-herofont md:w-[50%] md:text-left xxsm:text-center">
-          <h1 className="font-semibold text-2xl my-1">{props.projectTitle}</h1>
-          <p >
+          <h1 className="font-semibold md:text-2xl xxsm:text-xl my-1">{props.projectTitle}</h1>
+          <p className="md:text-lg xxsm:text-[15px]">
             {props.projectInfo}
           </p>
           <Button btnName="View Source Code" btnlink={props.link}/>
