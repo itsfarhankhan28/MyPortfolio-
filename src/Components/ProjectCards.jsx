@@ -26,17 +26,17 @@ function Card(props) {
       <h1 className="font-herofont text-2xl">Project</h1>
       <h1 className="font-herofont text-[80px] text-semibold">{props.serialNo}</h1>
       </div>
-      <div className="border-solid border-2 border-gray-100 rounded-xl my-3"></div>
-      <div className="flex md:flex-row xxsm:flex-col md:gap-10">
-        <div className="font-herofont">
+      <div className="border-solid border-2 border-gray-100 rounded-xl md:my-3"></div>
+      <div className="flex md:flex-row xxsm:flex-col-reverse md:justify-start md:items-start xxsm:justify-center xxsm:items-center md:gap-10">
+        <div className="font-herofont md:w-[50%] md:text-left xxsm:text-center">
           <h1 className="font-semibold text-2xl my-1">{props.projectTitle}</h1>
           <p >
             {props.projectInfo}
           </p>
           <Button btnName="View Source Code" btnlink={props.link}/>
         </div>
-        <div>
-          <img className="mt-10" src={props.image} alt="" />
+        <div className="w-[50%]">
+          <img className="md:mt-10" src={props.image} alt="" />
         </div>
       </div>
     </animated.div>
