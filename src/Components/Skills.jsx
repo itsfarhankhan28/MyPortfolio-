@@ -9,7 +9,7 @@ const Skills = () => {
     <>
      <div className='h-screen bg-custom-brown flex flex-col'>
         <h1 className='text-center pt-5 font-herofont text-[35px] font-semibold'>My Skills</h1>
-        <div className='w-[1350px] mx-auto h-auto grid grid-cols-4 gap-10 mt-5'>
+        <div className='w-auto mx-5 h-auto grid grid-cols-4 gap-10 mt-5'>
             <ProgrammingLang/>
             <WebDevelopment/>
             <Tools/>
