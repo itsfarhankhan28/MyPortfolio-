@@ -5,7 +5,7 @@ import langimg2 from '../Assets/languageimg2-removebg-preview 1.png'
 import langimg3 from '../Assets/languageimg3-removebg-preview 1.png'
 import langimg4 from '../Assets/languageimg4-removebg-preview 1.png'
 import {motion} from 'framer-motion'
-import scrollicon from '../Assets/scroll-bar.png'
+import scrollicon from '../Assets/scroll-bar.gif'
 
 const Herosection = (props) => {
 
