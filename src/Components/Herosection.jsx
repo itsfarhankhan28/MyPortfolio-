@@ -55,9 +55,9 @@ const Herosection = (props) => {
     <>
       <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
-        <div className='grid lg:grid-cols-2 w-auto 2xl:h-[600px] lg:h-[400px] xxsm:h-[550px] md:mt-0 xxsm:mt-5'>
+        <div className='grid lg:grid-cols-2 w-auto 2xl:h-[600px] lg:h-[400px] xxsm:h-[550px] md:mt-0 xxsm:mt-5 2xl:gap-10'>
             <div>
-                <div className='flex lg:justify-start xxsm:justify-center'>
+                <div className='flex 2xl:justify-end lg:justify-start xxsm:justify-center'>
                     <img className='2xl:h-[550px] lg:h-[400px] xxsm:h-[300px] lg:mt-0 xxsm:mt-10' src={img1} alt="" />
                 </div>
                 <div className='relative'>
@@ -77,7 +77,7 @@ const Herosection = (props) => {
                     restDelta: 0.001
                   }
                 }} 
-                className='absolute lg:bottom-[250px] lg:left-[220px] 2xl:bottom-[330px] 2xl:left-[320px] lg:w-[150px] xxsm:w-[130px] xxsm:bottom-[200px] xxsm:left-[225px]' src={langimg1} alt="" />
+                className='absolute lg:bottom-[250px] lg:left-[220px] 2xl:bottom-[330px] 2xl:left-[460px] lg:w-[150px] xxsm:w-[130px] xxsm:bottom-[200px] xxsm:left-[225px]' src={langimg1} alt="" />
                 <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1  }}
