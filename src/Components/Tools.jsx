@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 
 const Tools = () => {
   return (
@@ -9,7 +10,11 @@ const Tools = () => {
                 <div className='flex gap-3'>
                     <img src="https://skillicons.dev/icons?i=vscode" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[150px] rounded-l-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:150}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[150px] rounded-l-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>90%</h1>
@@ -18,7 +23,11 @@ const Tools = () => {
                 <div className='flex gap-3'>
                     <img src="https://skillicons.dev/icons?i=postman" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[170px] rounded-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:170}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[170px] rounded-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>100%</h1>
@@ -27,7 +36,11 @@ const Tools = () => {
                 <div className='flex gap-3'>
                     <img src="https://skillicons.dev/icons?i=git" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[135px] rounded-l-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:135}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[135px] rounded-l-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>80%</h1>
