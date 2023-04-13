@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 
 const ProgrammingLang = () => {
   return (
@@ -11,7 +12,11 @@ const ProgrammingLang = () => {
                 <div className='flex gap-3'>
                     <img src="https://skillicons.dev/icons?i=c" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[135px] rounded-l-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:135}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[135px] rounded-l-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>80%</h1>
@@ -22,7 +27,11 @@ const ProgrammingLang = () => {
                 <div className="flex gap-3">
                     <img src="https://skillicons.dev/icons?i=python" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[150px] rounded-l-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:150}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[150px] rounded-l-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>90%</h1>
@@ -33,7 +42,11 @@ const ProgrammingLang = () => {
                 <div className="flex gap-3">
                     <img src="https://skillicons.dev/icons?i=java" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[110px] rounded-l-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:110}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[110px] rounded-l-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>60%</h1>
@@ -44,7 +57,11 @@ const ProgrammingLang = () => {
                 <div className="flex gap-3">
                     <img src="https://skillicons.dev/icons?i=javascript" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[155px] rounded-l-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:155}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[155px] rounded-l-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>95%</h1>
@@ -55,7 +72,11 @@ const ProgrammingLang = () => {
                 <div className="flex gap-3">
                     <img src="https://skillicons.dev/icons?i=typescript" alt="" />
                     <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
-                        <div className='absolute inset-0 bg-blue-300 w-[100px] rounded-l-full'></div>
+                        <motion.div 
+                        initial={{width:0}}
+                        animate={{width:100}}
+                        transition={{duration:1}}
+                        className='absolute inset-0 bg-blue-300 w-[100px] rounded-l-full'></motion.div>
                     </div>
                     <div className='my-auto'>
                         <h1 className='font-herofont font-bold text-xl'>50%</h1>
