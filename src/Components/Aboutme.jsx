@@ -64,7 +64,7 @@ const Aboutme = () => {
   return (
     <>
       <div className='bg-custom-brown flex justify-center items-center xxsm:h-auto md:h-screen xxsm:pb-20 md:pb-0'>
-        <div className='lg:mx-[250px] md:mx-[50px] h-auto w-auto flex justify-center items-center lg:text-left xxsm:text-center lg:flex-row xxsm:flex-col'>
+        <div className='lg:mx-[250px] md:mx-[50px] gap-5 h-auto w-auto flex justify-center items-center lg:text-left xxsm:text-center lg:flex-row xxsm:flex-col'>
         <div className='w-[40%]'>
           <motion.img
           variants={animateImage}
@@ -88,7 +88,7 @@ const Aboutme = () => {
           variants={animatepara} 
           animate="show" 
           initial="hidden" 
-          className='leading-7 mt-3'>Hello there👋 My name is Farhan Khan and I'm aiming to be a web developer 👨‍💻. I am currently pursuing my degree in Information technology and have a passion for all things web development. I have experience working with HTML, CSS, JavaScript, and several web development frameworks such as React etc.</motion.p>
+          className='leading-7 mt-1'>Hello there👋 My name is Farhan Khan and I'm aiming to be a web developer 👨‍💻. I am currently pursuing my degree in Information technology and have a passion for all things web development. I have experience working with HTML, CSS, JavaScript, and several web development frameworks such as React etc.</motion.p>
           <br />
           <motion.p
           variants={animatepara} 
