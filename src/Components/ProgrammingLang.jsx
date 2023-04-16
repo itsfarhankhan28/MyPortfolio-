@@ -93,65 +93,65 @@ const ProgrammingLang = () => {
 
                 {/* Lang1 */}
                 <div className='flex gap-3'>
-                    <img className='w-[20%]' src="https://skillicons.dev/icons?i=c" alt="" />
-                    <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=c" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div 
                         animate={animateLang1}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto w-[10%]'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>80%</h1>
                     </div>
                 </div>
 
                 {/* Lang2 */}
                 <div className="flex gap-3">
-                    <img className='w-[20%]' src="https://skillicons.dev/icons?i=python" alt="" />
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=python" alt="" />
                     <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang2}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto w-[10%]'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>90%</h1>
                     </div>
                 </div>
 
                 {/* Lang3 */}
                 <div className="flex gap-3">
-                    <img className='w-[20%]' src="https://skillicons.dev/icons?i=java" alt="" />
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=java" alt="" />
                     <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang3}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto w-[10%]'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>60%</h1>
                     </div>
                 </div>
 
                 {/* Lang4 */}
                 <div className="flex gap-3">
-                    <img className='w-[20%]' src="https://skillicons.dev/icons?i=javascript" alt="" />
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=javascript" alt="" />
                     <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang4}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto w-[10%]'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>95%</h1>
                     </div>
                 </div>
 
                 {/* Lang5 */}
                 <div className="flex gap-3">
-                    <img className='w-[20%]' src="https://skillicons.dev/icons?i=typescript" alt="" />
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=typescript" alt="" />
                     <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang5}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto w-[10%]'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>50%</h1>
                     </div>
                 </div>
