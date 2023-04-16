@@ -107,7 +107,7 @@ const ProgrammingLang = () => {
                 {/* Lang2 */}
                 <div className="flex gap-3">
                     <img className='w-[15%]' src="https://skillicons.dev/icons?i=python" alt="" />
-                    <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang2}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
@@ -120,7 +120,7 @@ const ProgrammingLang = () => {
                 {/* Lang3 */}
                 <div className="flex gap-3">
                     <img className='w-[15%]' src="https://skillicons.dev/icons?i=java" alt="" />
-                    <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang3}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
@@ -133,7 +133,7 @@ const ProgrammingLang = () => {
                 {/* Lang4 */}
                 <div className="flex gap-3">
                     <img className='w-[15%]' src="https://skillicons.dev/icons?i=javascript" alt="" />
-                    <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang4}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
@@ -146,7 +146,7 @@ const ProgrammingLang = () => {
                 {/* Lang5 */}
                 <div className="flex gap-3">
                     <img className='w-[15%]' src="https://skillicons.dev/icons?i=typescript" alt="" />
-                    <div className='relative bg-gray-300 w-[70%] h-7 my-auto rounded-full'>
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang5}
                         className='absolute inset-0 bg-blue-300 rounded-l-full'></motion.div>
