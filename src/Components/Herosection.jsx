@@ -53,7 +53,7 @@ const Herosection = (props) => {
 
   return (
     <>
-      <div className='bg-custom-brown h-[100vh] md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
+      <div className='bg-custom-brown h-screen md:flex items-center justify-center 2xl:overflow-hidden lg:overflow-visible'>
         <div className='grid grid-cols-1'>
         <div className='grid lg:grid-cols-2 w-auto 2xl:h-[600px] lg:h-[400px] xxsm:h-[550px] md:mt-0 xxsm:mt-5 2xl:gap-10'>
             <div>
