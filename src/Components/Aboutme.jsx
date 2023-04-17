@@ -63,8 +63,8 @@ const Aboutme = () => {
 
   return (
     <>
-      <div className='bg-custom-brown flex justify-center items-center xxsm:h-auto md:h-screen xxsm:pb-20 md:pb-0'>
-        <div className='lg:mx-[250px] md:mx-[50px] gap-5 h-auto w-auto flex justify-center items-center lg:text-left xxsm:text-center lg:flex-row xxsm:flex-col'>
+      <div className='bg-custom-brown flex justify-center items-center xxsm:h-auto md:h-auto xxsm:pb-20 md:pb-0'>
+        <div className='lg:mx-[250px] md:mx-[50px] lg:my-0 md:my-[50px] gap-5 h-auto w-auto flex justify-center items-center lg:text-left xxsm:text-center lg:flex-row xxsm:flex-col'>
         <div className='w-[40%]'>
           <motion.img
           variants={animateImage}
