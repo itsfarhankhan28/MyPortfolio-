@@ -19,7 +19,7 @@ const Others = () => {
     useEffect(()=>{
         if(inView){
             animateLang1.start({
-                width:170,
+                width:"100%",
                 transition:{
                     duration:1
                 }
@@ -27,7 +27,7 @@ const Others = () => {
         }
         if(inView){
             animateLang2.start({
-                width:110,
+                width:"60%",
                 transition:{
                     duration:1
                 }
@@ -35,7 +35,7 @@ const Others = () => {
         }
         if(inView){
             animateLang3.start({
-                width:135,
+                width:"80%",
                 transition:{
                     duration:1
                 }
@@ -43,7 +43,7 @@ const Others = () => {
         }
         if(inView){
             animateLang4.start({
-                width:170,
+                width:"100%",
                 transition:{
                     duration:1
                 }
@@ -51,7 +51,7 @@ const Others = () => {
         }
         if(inView){
             animateLang5.start({
-                width:155,
+                width:"90%",
                 transition:{
                     duration:1
                 }
@@ -92,65 +92,65 @@ const Others = () => {
 
                 {/* Lang1 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=figma" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className="w-[15%]" src="https://skillicons.dev/icons?i=figma" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang1}
                         className='absolute inset-0 bg-blue-300 w-[170px] rounded-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>100%</h1>
                     </div>
                 </div>
 
                 {/* Lang2 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=webflow" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className="w-[15%]" src="https://skillicons.dev/icons?i=webflow" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang2}
                         className='absolute inset-0 bg-blue-300 w-[110px] rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>60%</h1>
                     </div>
                 </div>
 
                 {/* Lang3 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=mui" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className="w-[15%]" src="https://skillicons.dev/icons?i=mui" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang3}
                         className='absolute inset-0 bg-blue-300 w-[135px] rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>80%</h1>
                     </div>
                 </div>
 
                 {/* Lang4 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=markdown" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className="w-[15%]" src="https://skillicons.dev/icons?i=markdown" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang4}
                         className='absolute inset-0 bg-blue-300 w-[170px] rounded-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>100%</h1>
                     </div>
                 </div>
 
                 {/* Lang5 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=mongodb" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className="w-[15%]" src="https://skillicons.dev/icons?i=mongodb" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang5}
                         className='absolute inset-0 bg-blue-300 w-[155px] rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>95%</h1>
                     </div>
                 </div>
