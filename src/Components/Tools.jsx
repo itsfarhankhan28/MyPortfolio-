@@ -17,7 +17,7 @@ const Tools = () => {
     useEffect(()=>{
         if(inView){
             animateLang1.start({
-                width:150,
+                width:"90%",
                 transition:{
                     duration:1
                 }
@@ -25,7 +25,7 @@ const Tools = () => {
         }
         if(inView){
             animateLang2.start({
-                width:170,
+                width:"100%",
                 transition:{
                     duration:1
                 }
@@ -33,7 +33,7 @@ const Tools = () => {
         }
         if(inView){
             animateLang3.start({
-                width:135,
+                width:"80%",
                 transition:{
                     duration:1
                 }
@@ -64,39 +64,39 @@ const Tools = () => {
 
                 {/* Tool1 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=vscode" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=vscode" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang1}
                         className='absolute inset-0 bg-blue-300 w-[150px] rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>90%</h1>
                     </div>
                 </div>
 
                 {/* Tool2 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=postman" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=postman" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang2}
                         className='absolute inset-0 bg-blue-300 w-[170px] rounded-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>100%</h1>
                     </div>
                 </div>
 
                 {/* Tool3 */}
                 <div className='flex gap-3'>
-                    <img src="https://skillicons.dev/icons?i=git" alt="" />
-                    <div className='relative bg-gray-300 w-[170px] h-7 my-auto rounded-full'>
+                    <img className='w-[15%]' src="https://skillicons.dev/icons?i=git" alt="" />
+                    <div className='relative bg-gray-300 w-[60%] h-7 my-auto rounded-full'>
                         <motion.div
                         animate={animateLang3}
                         className='absolute inset-0 bg-blue-300 w-[135px] rounded-l-full'></motion.div>
                     </div>
-                    <div className='my-auto'>
+                    <div className='my-auto w-[15%]'>
                         <h1 className='font-herofont font-bold text-xl'>80%</h1>
                     </div>
                 </div>
