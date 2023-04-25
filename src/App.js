@@ -1,5 +1,6 @@
 import './App.css';
 import Aboutme from './Components/Aboutme';
+import Contactform from './Components/Contactform';
 import Herosection from './Components/Herosection';
 import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Skills/>
       <Aboutme/>
+      <Contactform/>
     </>
   );
 }
