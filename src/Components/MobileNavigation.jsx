@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import NavLinks from './NavLinks'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai'
+import portfoliologo from '../Assets/portfoliologo.png'
 
 const MobileNavigation = () => {
 
@@ -23,7 +24,7 @@ const MobileNavigation = () => {
     <>
     <div className='flex justify-items items-center'>
       <div className='absolute left-[3%]'>
-        <h1 className='text-3xl font-herofont'>Fk</h1>
+        <img className='w-[100px]' src={portfoliologo} alt="" />
       </div>
       <nav className='md:hidden bg-blue-300 flex items-center'>
         {isOpen ? CloseIcon : HamburgerMenu}

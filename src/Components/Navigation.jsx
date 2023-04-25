@@ -1,12 +1,13 @@
 import React from 'react'
 import NavLinks from './NavLinks'
+import portfoliologo from '../Assets/portfoliologo.png'
 
 const Navigation = () => {
   return (
     <>
     <div className='flex justify-items items-center'>
       <div className='absolute left-[3%]'>
-        <h1 className='text-3xl font-herofont'>Fk</h1>
+        <img className='w-[100px]' src={portfoliologo} alt="" />
       </div>
       <nav className='md:inline-block xxsm:hidden'>
         <NavLinks/>
