@@ -31,7 +31,9 @@ module.exports = {
       },
       colors:{
         'custom-brown':'#E3DFDB',
-        'custom-warm':'#F3DEBA'
+        'custom-warm':'#F3DEBA',
+        'Mischka':'#DCD9E2',
+        'Lavender':'#F5F3F4'
       }
     },
   },
