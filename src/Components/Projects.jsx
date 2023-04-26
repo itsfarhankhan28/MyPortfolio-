@@ -43,7 +43,7 @@ const Projects = () => {
 
   return (
     <>
-    <div className='overflow-hidden bg-custom-brown'>
+    <div className='overflow-hidden bg-Mischka'>
       <div className='flex justify-center items-center gap-5 flex-col h-auto mb-10'>
       <h1 className='font-herofont text-[35px] font-semibold text-center'>My Work</h1>
         <Carousel

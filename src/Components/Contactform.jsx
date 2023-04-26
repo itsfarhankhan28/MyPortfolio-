@@ -4,7 +4,7 @@ import {AiOutlineCopyright , AiOutlineInstagram , AiOutlineLinkedin , AiOutlineD
 const Contactform = () => {
   return (
     <>
-      <div className="w-full h-auto bg-custom-brown border-t-2 border-gray-200 ">
+      <div className="w-full h-auto bg-Lavender border-t ">
         <div className="flex flex-col gap-y-10 mx-auto w-[1000px] mt-[30px]">
           <div className='flex'>
             {/* Portfolio Logo */}
@@ -20,12 +20,12 @@ const Contactform = () => {
                   <div className='grid grid-cols-1 gap-y-5'>
                     <div>
                       <input 
-                      className='w-[250px] bg-transparent border-black border-b h-[30px] text-lg' 
+                      className='w-[250px] bg-transparent border-black border rounded-md px-2 py-3 h-[30px] text-lg' 
                       type="text" name="username" placeholder='Enter Name' autoComplete='off' required/>
                     </div>
                     <div>
                       <input 
-                      className='w-[250px] bg-transparent border-black border-b h-[30px] text-lg' 
+                      className='w-[250px] bg-transparent border-black border rounded-md px-2 py-3 h-[30px] text-lg' 
                       type="email" name="email" placeholder='Enter Email' autoComplete='off' required/>
                     </div>
                   </div>

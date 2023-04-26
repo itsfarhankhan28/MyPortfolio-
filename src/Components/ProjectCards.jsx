@@ -16,7 +16,7 @@ function Card(props) {
   return (
     <animated.div
       // className={Styles.card}
-      className='flex flex-col justify-center md:w-[35rem] xxsm:w-[18rem] h-fit rounded-[10px] bg-custom-warm p-3'
+      className='flex flex-col justify-center md:w-[35rem] xxsm:w-[18rem] h-fit rounded-[10px] bg-Lavender border-5 border-white p-3'
       style={props3}
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
