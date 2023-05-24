@@ -12,9 +12,9 @@ const Banner = () => {
         duration:0.5,
         delay:6
     }}}
-    className='flex w-[950px]'>
-        <img className='' src={portfolioimg} alt="" />
-        <p className='text-left font-herofont text-[25px] leading-[35px] mt-28 font-semibold'>A passionate and motivated web developer . Dedicated to creating user friendly , visually appealing and responsive website.</p>
+    className='flex w-[850px]'>
+        <img className='w-[60%]' src={portfolioimg} alt="" />
+        <p className='w-[40%] text-left font-herofont text-[25px] leading-[35px] mt-24 font-semibold'>A passionate and motivated web developer . Dedicated to creating user friendly , visually appealing and responsive website.</p>
     </motion.div>  
     </>
   )
