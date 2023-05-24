@@ -1,20 +1,18 @@
 import React from 'react'
 import Loader from './Loader'
 import Banner from './Banner'
-import { motion , AnimatePresence , LayoutGroup } from 'framer-motion'
+import { motion , LayoutGroup } from 'framer-motion'
 
 const Herosection = () => {
   return (
-    <>
-    <div className='h-screen bg-Mischka relative flex flex-col justify-center items-center text-center'>
-      <LayoutGroup type="crossfade">
+    <LayoutGroup type="crossfade">
+    <motion.div className='h-screen bg-Mischka relative flex justify-center items-center text-center'>
       <div className='absolute'>
-      <Loader/>
+      <Loader heading1="Hello" heading2="I am Farhan Khan"/>
       </div>
       <Banner/>
-      </LayoutGroup>
-    </div>
-    </>
+    </motion.div>
+    </LayoutGroup>
   )
 }
 
