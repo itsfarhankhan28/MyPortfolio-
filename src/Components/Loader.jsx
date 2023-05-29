@@ -80,7 +80,7 @@ const Loader = (props) => {
     variants={container}
     initial='hidden'
     animate='visible'
-    className='font-herofont text-3xl font-semibold relative'>
+    className='font-herofont text-3xl text-center font-semibold sticky z-10'>
         <AnimatePresence>
             {visible && (
                 <>
