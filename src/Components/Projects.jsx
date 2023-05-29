@@ -1,61 +1,34 @@
 import React from 'react'
-import Carousel from './Carousel'
-import { v4 as uuidv4 } from "uuid";
-import Card from './ProjectCards';
-import ProjectImg1 from '../Assets/Project1 Demo.png'
-import ProjectImg2 from '../Assets/Project2 Demo.png'
-
+import { useRef } from 'react'
+import { useScroll, useTransform } from 'framer-motion'
+import { motion } from 'framer-motion'
+import ProjectOne from './ProjectOne'
 
 const Projects = () => {
 
-  let cards = [
-    {
-      key:uuidv4(),
-      content:(
-        <Card serialNo="01" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg1} projectTitle="All About Recipe" link="https://github.com/itsfarhankhan28/RecipeWebsite"/>
-      )
-    },
-    {
-      key:uuidv4(),
-      content:(
-        <Card serialNo="02" projectInfo="The purpose of this website is to provide users with a collection of recipes , cooking tips and food related information . The goal is to inspire and assist users in the kitchen.The technology used is MERN stack" image={ProjectImg2} projectTitle="Clone Website" link="https://github.com/itsfarhankhan28/CloneWeb"/>
-      )
-    },
-    {
-      key:uuidv4(),
-      content:(
-        <Card serialNo="03"/>
-      )
-    },
-    {
-      key:uuidv4(),
-      content:(
-        <Card serialNo="04"/>
-      )
-    },
-    {
-      key:uuidv4(),
-      content:(
-        <Card serialNo="05"/>
-      )
-    },
-  ]
+  const targetRef = useRef()
+  const {scrollYProgress} = useScroll({
+    target:targetRef,
+    offset:["start end","end start"]
+  })
+
+  const scale = useTransform(scrollYProgress , [0.1,0.4] , [1,2.5])
+  const x = useTransform(
+    scrollYProgress,
+    [0.1,0.25,0.7,1],
+    ["0%","-35%","-40%","-80%"]
+  )
+
+  const opacity = useTransform(scrollYProgress , [0.5,1],[1,0])
 
   return (
     <>
-    <div className='overflow-hidden bg-Mischka'>
-      <div className='flex justify-center items-center gap-5 flex-col h-auto mb-10'>
-      <h1 className='font-herofont text-[35px] font-semibold text-center'>My Work</h1>
-        <Carousel
-          cards={cards}
-          height="500px"
-          width="30%"
-          margin="0 auto"
-          offset={2}
-          showArrows={false}
-        />
-      </div>
-      </div>
+    <div className='h-[100vh] overflow-hidden flex justify-center items-center bg-Mischka '>
+      <motion.h1
+      style={{scale , x , opacity}} 
+      ref={targetRef} 
+      className='z-10 font-herofont text-[130px] font-semibold'>Projects</motion.h1>
+    </div> 
     </>
   )
 }
