@@ -119,8 +119,8 @@ const ProjectOne = () => {
         <motion.p style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}} className='w-[50%] font-herofont pt-20'>
             <h1 className='text-[40px]'>Project 01</h1>
             <h1 className='text-[55px] font-semibold'>All About Recipe</h1>
-            <p className='leading-[30px] font-semibold'>The purpose of this website <br /> is to provide users with a <br />
-            collection of recipes ,<br /> cooking tips and food <br /> related information . The <br /> goal is to inspire and assist <br /> users in the kitchen . The <br /> technology used is MERN stack</p>
+            <p className='leading-[30px] font-semibold'>The purpose of this website is to provide users with a collection of recipes ,cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack</p>
+            <button className='border border-black px-8 mt-3 font-semibold rounded-xl'>View Source Code</button>
         </motion.p>
         <motion.img style={{opacity , scale , x}}  className='w-[50%] my-auto' src={projectimg1} alt="" />
         </motion.div>
