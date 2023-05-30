@@ -2,7 +2,6 @@ import React from 'react'
 import { useRef } from 'react'
 import { useScroll, useTransform } from 'framer-motion'
 import { motion } from 'framer-motion'
-import ProjectOne from './ProjectOne'
 
 const Projects = () => {
 
@@ -16,7 +15,7 @@ const Projects = () => {
   const x = useTransform(
     scrollYProgress,
     [0.1,0.25,0.7,1],
-    ["0%","-35%","-40%","-80%"]
+    ["0%","0%","0%","-80%"]
   )
 
   const opacity = useTransform(scrollYProgress , [0.5,1],[1,0])
