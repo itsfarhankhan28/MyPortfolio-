@@ -95,7 +95,7 @@ const ProjectTwo = () => {
     <div className='h-[100vh] bg-Mischka'>
         <motion.div
         ref={targetRef} 
-        className='flex w-[1000px] justify-center items-center mx-auto pt-16'>
+        className='flex w-[1000px] justify-center items-center mx-auto pt-20'>
             <motion.img 
             style={{opacity , scale , x}}
             className='w-[55%] my-auto' src={project2img} alt="" />
