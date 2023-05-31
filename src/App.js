@@ -30,7 +30,7 @@ function App() {
       <ProjectTwo/>
       </div>
       <MySkills/>
-      {/* <Skills/> */}
+      <Skills/>
       {/* <Aboutme/> */}
       {/* <Contactform/> */}
     </>
