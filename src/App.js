@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import ProjectOne from './Components/ProjectOne';
+import ProjectTwo from './Components/ProjectTwo';
 // import { ScrollerMotion } from 'scroller-motion';
 // import SmoothScroll from './Components/SmoothScroll';
 
@@ -25,6 +26,7 @@ function App() {
       <Projects ref={projectref}/>
       <div className='overflow-hidden'>
       <ProjectOne/>
+      <ProjectTwo/>
       </div>
       {/* <Skills/> */}
       {/* <Aboutme/> */}
