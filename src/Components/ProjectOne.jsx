@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const animationOrder = {
   initial:0,
-  fadeInEnd:0.15,
+  fadeInEnd:0.3,
   showParagraphOne:0.25,
   hideParagraphOne:0.3,
   showParagraphTwoStart:0.35,
@@ -71,50 +71,49 @@ const ProjectOne = () => {
   const paragraph1Opacity = useTransform(
     scrollYProgress,
     [
-      animationOrder.fadeInEnd + 0.02,
+      // animationOrder.fadeInEnd + 0.02,
       animationOrder.showParagraphOne,
       // animationOrder.hideParagraphOne
     ],
-    [0,1]
+    [1]
   )
 
   const paragraph1TranslateY = useTransform(
     scrollYProgress,
     [
-      animationOrder.fadeInEnd + 0.02,
+      // animationOrder.fadeInEnd + 0.02,
       animationOrder.showParagraphOne,
       animationOrder.hideParagraphOne
     ],
-    ["4rem","0rem","-4rem"]
+    ["0rem","-4rem"]
   )
 
-  const paragraph2Opacity = useTransform(
-    scrollYProgress,
-    [
-      animationOrder.showParagraphTwoStart,
-      animationOrder.showParagraphTwoEnd,
-      animationOrder.hideParagraphTwo
-    ],
-    [0,1,0]
-  )
+  // const paragraph2Opacity = useTransform(
+  //   scrollYProgress,
+  //   [
+  //     animationOrder.showParagraphTwoStart,
+  //     animationOrder.showParagraphTwoEnd,
+  //     animationOrder.hideParagraphTwo
+  //   ],
+  //   [0,1,0]
+  // )
 
-  const paragraph2TranslateY = useTransform(
-    scrollYProgress,
-    [
-      animationOrder.showParagraphTwoStart,
-      animationOrder.showParagraphTwoEnd,
-      animationOrder.hideParagraphTwo
-    ],
-    ["4rem","0rem","-4rem"]
-  )
+  // const paragraph2TranslateY = useTransform(
+  //   scrollYProgress,
+  //   [
+  //     animationOrder.showParagraphTwoStart,
+  //     animationOrder.showParagraphTwoEnd,
+  //     animationOrder.hideParagraphTwo
+  //   ],
+  //   ["4rem","0rem","-4rem"]
+  // )
 
-  const position = useTransform(scrollYProgress,(pos)=>
-  pos >= 1 ? "relative" : "fixed"
-  )
+  const opacityProject = useTransform(scrollYProgress , [0,1],[1,0.5])
+  const scaleProject = useTransform(scrollYProgress , [0,0.5] , [1,0.8])
 
   return (
     <>
-    <section className='bg-Mischka h-[100vh] sticky'>
+    <section className='bg-Mischka h-[100vh]'>
         <motion.div ref={targetRef} className='flex justify-center items-center w-[1000px] mx-auto pt-16 leading-[60px] z-20'>
         <motion.p style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}} className='w-[50%] font-herofont pt-20'>
             <h1 className='text-[40px]'>Project 01</h1>
