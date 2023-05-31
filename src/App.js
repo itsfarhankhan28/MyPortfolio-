@@ -9,6 +9,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import ProjectOne from './Components/ProjectOne';
 import ProjectTwo from './Components/ProjectTwo';
+import MySkills from './Components/MySkills';
 // import { ScrollerMotion } from 'scroller-motion';
 // import SmoothScroll from './Components/SmoothScroll';
 
@@ -28,6 +29,7 @@ function App() {
       <ProjectOne/>
       <ProjectTwo/>
       </div>
+      <MySkills/>
       {/* <Skills/> */}
       {/* <Aboutme/> */}
       {/* <Contactform/> */}
