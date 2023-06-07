@@ -1,10 +1,31 @@
-import React from 'react'
+import React , {useRef} from 'react'
+import {motion} from 'framer-motion'
+import { useScroll , useTransform } from 'framer-motion'
 
 const Skills = () => {
+
+  const targetRef = useRef()
+  const {scrollYProgress} = useScroll({
+    target:targetRef,
+    offset:["end end","end start"]
+  })
+
+  const opacity = useTransform(scrollYProgress , [0,1],[1,0])
+  const scale = useTransform(scrollYProgress , [0,0.5] , [1,0.8])
+
   return (
     <>
     <div className='h-[100vh] bg-Mischka'>
-        <div className='flex flex-wrap w-full justify-center items-center font-herofont font-semibold'>
+      <motion.div 
+      style={{opacity , scale}}
+      ref={targetRef}
+      key="banner"
+      initial={{opacity:0}}
+      animate={{opacity:1,transition:{
+      duration:0.5,
+      delay:6
+        }}}
+        className='flex flex-wrap w-full justify-center items-center font-herofont font-semibold'>
           <div className='m-8 text-center'>
             <img className='w-[100px]' src="https://skillicons.dev/icons?i=html" alt="" />
             <h1>HTML</h1>
@@ -69,7 +90,7 @@ const Skills = () => {
             <img className='w-[100px]' src="https://skillicons.dev/icons?i=webflow" alt="" />
             <h1>WEBFLOW</h1>
           </div>
-        </div>
+        </motion.div>
     </div>  
     </>
   )
