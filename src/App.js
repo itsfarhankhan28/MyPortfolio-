@@ -30,8 +30,10 @@ function App() {
       <ProjectTwo/>
       </div>
       <MySkills/>
+      <div className='relative'>
       <Skills/>
-      {/* <Aboutme/> */}
+      </div>
+      <Aboutme/>
       {/* <Contactform/> */}
     </>
   );
