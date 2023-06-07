@@ -10,6 +10,9 @@ import Skills from './Components/Skills';
 import ProjectOne from './Components/ProjectOne';
 import ProjectTwo from './Components/ProjectTwo';
 import MySkills from './Components/MySkills';
+import Aboutmecontent from './Components/Aboutmecontent';
+import Blogs from './Components/Blogs';
+import BlogsContent from './Components/BlogsContent';
 // import { ScrollerMotion } from 'scroller-motion';
 // import SmoothScroll from './Components/SmoothScroll';
 
@@ -33,8 +36,11 @@ function App() {
       <div className='relative'>
       <Skills/>
       </div>
-      <Aboutme/>
+      {/* <Aboutme/>
+      <Aboutmecontent/> */}
       {/* <Contactform/> */}
+      <Blogs/>
+      <BlogsContent/>
     </>
   );
 }
