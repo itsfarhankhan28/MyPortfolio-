@@ -13,6 +13,7 @@ import MySkills from './Components/MySkills';
 import Aboutmecontent from './Components/Aboutmecontent';
 import Blogs from './Components/Blogs';
 import BlogsContent from './Components/BlogsContent';
+import ProjectThree from './Components/ProjectThree';
 // import { ScrollerMotion } from 'scroller-motion';
 // import SmoothScroll from './Components/SmoothScroll';
 
@@ -31,6 +32,7 @@ function App() {
       <div className='overflow-hidden'>
       <ProjectOne/>
       <ProjectTwo/>
+      <ProjectThree/>
       </div>
       <MySkills/>
       <div className='relative'>
