@@ -57,13 +57,6 @@ const ProjectOne = () => {
     [
       animationOrder.initial,
       animationOrder.showParagraphOne,
-      // animationOrder.hideParagraphOne,
-      // animationOrder.showParagraphTwoStart,
-      // animationOrder.showParagraphTwoEnd,
-      // animationOrder.hideParagraphTwo,
-      // animationOrder.showLoadingScreenStart,
-      // animationOrder.showLoadingScreenEnd,
-      // animationOrder.createBranchEnd
     ],
     ["0%","10%"]
   )
@@ -71,9 +64,7 @@ const ProjectOne = () => {
   const paragraph1Opacity = useTransform(
     scrollYProgress,
     [
-      // animationOrder.fadeInEnd + 0.02,
       animationOrder.showParagraphOne,
-      // animationOrder.hideParagraphOne
     ],
     [1]
   )
@@ -87,29 +78,6 @@ const ProjectOne = () => {
     ],
     ["0rem","-4rem"]
   )
-
-  // const paragraph2Opacity = useTransform(
-  //   scrollYProgress,
-  //   [
-  //     animationOrder.showParagraphTwoStart,
-  //     animationOrder.showParagraphTwoEnd,
-  //     animationOrder.hideParagraphTwo
-  //   ],
-  //   [0,1,0]
-  // )
-
-  // const paragraph2TranslateY = useTransform(
-  //   scrollYProgress,
-  //   [
-  //     animationOrder.showParagraphTwoStart,
-  //     animationOrder.showParagraphTwoEnd,
-  //     animationOrder.hideParagraphTwo
-  //   ],
-  //   ["4rem","0rem","-4rem"]
-  // )
-
-  const opacityProject = useTransform(scrollYProgress , [0,1],[1,0.5])
-  const scaleProject = useTransform(scrollYProgress , [0,0.5] , [1,0.8])
 
   return (
     <>
