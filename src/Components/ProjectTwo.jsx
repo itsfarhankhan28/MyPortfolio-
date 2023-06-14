@@ -56,13 +56,6 @@ const ProjectTwo = () => {
     [
       animationOrder.initial,
       animationOrder.showParagraphOne,
-      // animationOrder.hideParagraphOne,
-      // animationOrder.showParagraphTwoStart,
-      // animationOrder.showParagraphTwoEnd,
-      // animationOrder.hideParagraphTwo,
-      // animationOrder.showLoadingScreenStart,
-      // animationOrder.showLoadingScreenEnd,
-      // animationOrder.createBranchEnd
     ],
     ["0%","-10%"]
   )
