@@ -55,9 +55,9 @@ const ProjectTwo = () => {
     scrollYProgress,
     [
       animationOrder.initial,
-      animationOrder.showParagraphOne,
+      // animationOrder.showParagraphOne,
     ],
-    ["0%","-10%"]
+    ["0%"]
   )
 
   const paragraph1Opacity = useTransform(
@@ -88,17 +88,17 @@ const ProjectTwo = () => {
     <div className='h-[100vh] bg-Mischka'>
         <motion.div
         ref={targetRef} 
-        className='flex w-[1000px] justify-center items-center mx-auto pt-20'>
+        className='flex lg:w-[1000px] md:w-[700px] xxsm:w-[350px] xxsm:text-center lg:text-left lg:flex-row xxsm:flex-col justify-center items-center mx-auto pt-20'>
             <motion.img 
             style={{opacity , scale , x}}
             className='w-[55%] my-auto' src={project2img} alt="" />
             <motion.p 
             style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}}
             className='font-herofont w-[45%] my-auto pt-20'>
-            <h1 className='text-[40px]'>Project 02</h1>
-            <h1 className='text-[55px] font-semibold'>Clone Website</h1>
+            <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 02</h1>
+            <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>Clone Website</h1>
             <p className='leading-[30px] font-semibold'>The purpose of this website is to provide users with a collection of recipes ,cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack</p>
-            <button className='border border-black bg-Mischka px-8 py-4 mt-3 font-semibold rounded-xl'>View Source Code</button>
+            <button className='border border-black bg-Mischka md:px-8 py-4 mt-3 font-semibold rounded-xl'>View Source Code</button>
             </motion.p>
         </motion.div>
     </div>
