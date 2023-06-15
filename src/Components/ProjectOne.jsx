@@ -82,14 +82,14 @@ const ProjectOne = () => {
   return (
     <>
     <section className='bg-Mischka h-screen'>
-        <motion.div ref={targetRef} className='flex lg:flex-row xxsm:flex-col-reverse justify-center items-center lg:w-[1000px] md:w-[700px] xxsm:w-[350px] lg:text-left xxsm:text-center mx-auto pt-16 md:leading-[60px] z-20 border border-black'>
-        <motion.p style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}} className='w-[50%] font-herofont pt-20'>
+        <motion.div ref={targetRef} className='flex lg:flex-row xxsm:flex-col-reverse justify-center items-center lg:w-[1000px] md:w-[700px] xxsm:w-[350px] lg:text-left xxsm:text-center mx-auto pt-16 md:leading-[60px] z-20'>
+        <motion.p style={{opacity:paragraph1Opacity,y:paragraph1TranslateY,width:'fit-content'}} className='w-[50%] font-herofont pt-20'>
             <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 01</h1>
             <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>All About Recipe</h1>
             <p className='leading-[30px] font-semibold'>The purpose of this website is to provide users with a collection of recipes ,cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack</p>
             <button className='border border-black md:px-8 py-4 mt-3 font-semibold rounded-xl'>View Source Code</button>
         </motion.p>
-        <motion.img style={{opacity , scale , x}}  className='w-[50%] my-auto' src={projectimg1} alt="" />
+        <motion.img style={{opacity , scale , x , width:'fit-content'}}  className='w-[50%] my-auto' src={projectimg1} alt="" />
         </motion.div>
     </section>  
     </>
