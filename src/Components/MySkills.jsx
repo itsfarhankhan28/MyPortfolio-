@@ -25,7 +25,7 @@ const MySkills = () => {
       <motion.h1
       style={{scale , x , opacity}} 
       ref={targetRef} 
-      className='z-10 font-herofont text-[120px] font-semibold'>My Skills</motion.h1>
+      className='z-10 font-herofont lg:text-[120px] md:text-[75px] xxsm:text-[35px] font-semibold'>My Skills</motion.h1>
     </div> 
     </>
   )
