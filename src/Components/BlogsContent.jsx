@@ -8,7 +8,7 @@ const BlogsContent = () => {
   return (
     <>
     <div className='h-auto bg-Mischka'>
-        <div className='w-[1000px] mx-auto p-10 flex flex-wrap gap-16'>
+        <div className='lg:w-[1000px] md:w-[500px] mx-auto p-10 flex lg:flex-row md:flex-col flex-wrap gap-16'>
             <div className='w-[400px] h-auto shadow-2xl rounded-3xl p-5' >
                 <h1 className='font-herofont text-[25px]'>Blog 01</h1>
                 <p className='text-[30px] font-herofont font-bold'>User authentication in MERN stack(Backend)</p>
