@@ -90,10 +90,10 @@ const ProjectTwo = () => {
         ref={targetRef} 
         className='flex lg:w-[1000px] md:w-[700px] xxsm:w-[350px] xxsm:text-center lg:text-left lg:flex-row xxsm:flex-col justify-center items-center mx-auto pt-20'>
             <motion.img 
-            style={{opacity , scale , x}}
+            style={{opacity , scale , x , width:'fit-content'}}
             className='w-[55%] my-auto' src={project2img} alt="" />
             <motion.p 
-            style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}}
+            style={{opacity:paragraph1Opacity,y:paragraph1TranslateY,width:'fit-content'}}
             className='font-herofont w-[45%] my-auto pt-20'>
             <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 02</h1>
             <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>Clone Website</h1>
