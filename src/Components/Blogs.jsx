@@ -22,11 +22,11 @@ const Blogs = () => {
 
   return (
     <>
-    <div className='h-[100vh] overflow-hidden flex justify-center items-center bg-Mischka '>
+    <div className='h-screen overflow-hidden flex justify-center items-center bg-Mischka '>
       <motion.h1
       style={{scale , x , opacity}} 
       ref={targetRef} 
-      className='z-10 font-herofont text-[130px] font-semibold'>Blogs</motion.h1>
+      className='z-10 font-herofont lg:text-[130px] md:text-[110px] xxsm:text-[50px] font-semibold'>Blogs</motion.h1>
     </div> 
     </>
   )
