@@ -85,16 +85,16 @@ const ProjectTwo = () => {
 
   return (
     <>
-    <div className='h-[100vh] bg-Mischka'>
+    <div className='xxsm:h-screen lg:h-[100vh] bg-Mischka'>
         <motion.div
         ref={targetRef} 
         className='flex lg:w-[1000px] md:w-[700px] xxsm:w-[350px] xxsm:text-center lg:text-left lg:flex-row xxsm:flex-col justify-center items-center mx-auto pt-20'>
             <motion.img 
-            style={{opacity , scale , x , width:'fit-content'}}
-            className='w-[55%] my-auto' src={project2img} alt="" />
+            style={{opacity , scale , x}}
+            className='md:w-[50%] xxsm:w-fit my-auto' src={project2img} alt="" />
             <motion.p 
-            style={{opacity:paragraph1Opacity,y:paragraph1TranslateY,width:'fit-content'}}
-            className='font-herofont w-[45%] my-auto pt-20'>
+            style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}}
+            className='font-herofont xxsm:w-fit md:w-[50%] my-auto pt-20'>
             <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 02</h1>
             <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>Clone Website</h1>
             <p className='leading-[30px] font-semibold'>The purpose of this website is to provide users with a collection of recipes ,cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack</p>
