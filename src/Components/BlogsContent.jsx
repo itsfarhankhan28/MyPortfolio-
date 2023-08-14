@@ -67,6 +67,45 @@ const BlogsContent = () => {
                     <img className='w-[25px] h-[15px]' src={arrow} alt="" />
                 </div>
             </div>
+
+            <div className='w-[400px] h-auto shadow-2xl rounded-3xl p-5 z-30' >
+                <h1 className='font-herofont text-[25px]'>Blog 04</h1>
+                <p className='text-[30px] font-herofont font-bold'>The easiest way of uploading image and audio files together using Multer, Cloudinary, and Node.js.</p>
+                <div className='flex gap-5'>
+                    <div className='mt-2 flex items-center gap-1'>
+                        <img className='h-[20px]' src={heart} alt="" />
+                        <h1 className='font-bold text-xl'>6</h1>
+                    </div>
+                    <div className='mt-2 flex items-center gap-1'>
+                        <img className='h-[20px]' src={eye} alt="" />
+                        <h1 className='font-bold text-xl'>67</h1>
+                    </div>
+                </div>
+                <div className='flex items-center gap-1 hover:gap-2 mt-3'>
+                    <button className='font-herofont font-bold text-xl'><a href="https://dev.to/itsfarhankhan28/the-easiest-way-of-uploading-image-and-audio-files-together-using-multer-cloudinary-and-nodejs-5ff3">Visit Blog</a></button>
+                    <img className='w-[25px] h-[15px]' src={arrow} alt="" />
+                </div>
+            </div>
+
+            <div className='w-[400px] h-auto shadow-2xl rounded-3xl p-5 z-30' >
+                <h1 className='font-herofont text-[25px]'>Blog 05</h1>
+                <p className='text-[30px] font-herofont font-bold'>How to become an Astro developer.👨‍💻👨‍💻</p>
+                <div className='flex gap-5'>
+                    <div className='mt-2 flex items-center gap-1'>
+                        <img className='h-[20px]' src={heart} alt="" />
+                        <h1 className='font-bold text-xl'>6</h1>
+                    </div>
+                    <div className='mt-2 flex items-center gap-1'>
+                        <img className='h-[20px]' src={eye} alt="" />
+                        <h1 className='font-bold text-xl'>25</h1>
+                    </div>
+                </div>
+                <div className='flex items-center gap-1 hover:gap-2 mt-3'>
+                    <button className='font-herofont font-bold text-xl'><a href="https://dev.to/itsfarhankhan28/how-to-become-an-astro-developer-3cj2">Visit Blog</a></button>
+                    <img className='w-[25px] h-[15px]' src={arrow} alt="" />
+                </div>
+            </div>
+
         </div>
     </div>  
     </>
