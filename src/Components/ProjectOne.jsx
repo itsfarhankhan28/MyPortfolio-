@@ -82,7 +82,7 @@ const ProjectOne = () => {
   return (
     <>
     <section className='bg-Mischka xxsm:h-screen lg:h-[100vh]'>
-        <motion.div ref={targetRef} className='flex lg:flex-row xxsm:flex-col-reverse justify-center items-center lg:w-[1000px] md:w-[700px] xxsm:w-[350px] lg:text-left xxsm:text-center mx-auto pt-16 md:leading-[60px] z-20'>
+        <motion.div ref={targetRef} className='flex lg:flex-row xxsm:flex-col-reverse justify-center items-center lg:w-[1000px] md:w-[700px] xxsm:w-[350px] lg:text-left xxsm:text-center mx-auto pt-16 md:leading-[60px] z-20 lg:gap-10'>
         <motion.p style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}} className='xxsm:w-fit md:w-[50%] font-herofont pt-20'>
             <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 01</h1>
             <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>All About Recipe</h1>
