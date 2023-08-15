@@ -87,7 +87,8 @@ const ProjectOne = () => {
             <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 01</h1>
             <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>All About Recipe</h1>
             <p className='leading-[30px] font-semibold'>The purpose of this website is to provide users with a collection of recipes ,cooking tips and food related information . The goal is to inspire and assist users in the kitchen . The technology used is MERN stack</p>
-            <button className='border border-black md:px-8 py-4 mt-3 font-semibold rounded-xl'>View Source Code</button>
+            <a target='_blank' href="https://recipe-website-lovat.vercel.app/"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl mr-3'>Visit Website</button></a>
+            <a target='_blank' href="https://github.com/itsfarhankhan28/RecipeWebsite"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl z-50'>View Source Code</button></a>
         </motion.p>
         <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={projectimg1} alt="" />
         </motion.div>
