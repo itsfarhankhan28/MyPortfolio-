@@ -14,6 +14,7 @@ import MySkills from './Components/MySkills';
 import Blogs from './Components/Blogs';
 import BlogsContent from './Components/BlogsContent';
 import ProjectThree from './Components/ProjectThree';
+import ProjectFourth from './Components/ProjectFourth';
 // import { ScrollerMotion } from 'scroller-motion';
 // import SmoothScroll from './Components/SmoothScroll';
 
@@ -35,6 +36,7 @@ function App() {
       <ProjectOne/>
       <ProjectTwo/>
       <ProjectThree/>
+      <ProjectFourth/>
       </div>
       <MySkills/>
       <div className='relative'>
