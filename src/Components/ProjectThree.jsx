@@ -36,7 +36,6 @@ const ProjectThree = () => {
           animationOrder.initial,
           animationOrder.fadeInEnd,
           animationOrder.createBranchEnd,
-          // animationOrder.endTextFadeInStart
         ],
         [0,1,1]
     )
@@ -46,8 +45,6 @@ const ProjectThree = () => {
         [
           animationOrder.initial,
           animationOrder.fadeInEnd,
-          // animationOrder.showLoadingScreenEnd,
-          // animationOrder.createBranchStart
         ],
         [2,1]
     )

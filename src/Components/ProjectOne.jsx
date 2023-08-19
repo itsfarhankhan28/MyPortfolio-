@@ -3,6 +3,8 @@ import projectimg1 from '../Assets/Project1 Demo.png'
 import { useRef } from 'react'
 import { useScroll, useTransform } from 'framer-motion'
 import { motion } from 'framer-motion'
+import showimg from '../Assets/showbtn.png'
+import gtihubimg from '../Assets/githubbtn.webp'
 
 const animationOrder = {
   initial:0,
