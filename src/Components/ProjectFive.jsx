@@ -81,11 +81,11 @@ const ProjectFive = () => {
      <section className='bg-Mischka xxsm:h-screen lg:h-[100vh]'>
         <motion.div ref={targetRef} className='flex lg:w-[1000px] md:w-[700px] xxsm:w-[350px] xxsm:text-center lg:text-left lg:flex-row xxsm:flex-col-reverse justify-center items-center mx-auto pt-16 md:leading-[60px] z-20 lg:gap-10'>
         <motion.p style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}} className='xxsm:w-fit md:w-[50%] font-herofont pt-20'>
-            <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 03</h1>
-            <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>My Blog App</h1>
-            <p className='leading-[30px] font-semibold'>Step into the world of web development through "My Blog App," a creation powered by Next.js and TypeScript. Delve into a collection of insightful blogs penned by me, each shedding light on various facets of the ever-evolving web landscape 📝📝</p>
-            <a target='_blank' href="https://my-blog-app-six.vercel.app/"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl mr-3'>Visit Website</button></a>
-            <a target='_blank' href="https://github.com/itsfarhankhan28/MyBlogApp"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl'>View Source Code</button></a>
+            <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 05</h1>
+            <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>ContactSphere</h1>
+            <p className='leading-[30px] font-semibold'>ContactSphere is a multifunctional application designed to manage contacts efficiently while also providing essential COVID-19 statistics and geographic visualization. Users can seamlessly perform Create, Read, Update, and Delete (CRUD) operations on their contacts 📞📞</p>
+            <a target='_blank' href="https://contact-app-beta-khaki.vercel.app/"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl mr-3'>Visit Website</button></a>
+            <a target='_blank' href="https://github.com/itsfarhankhan28/ContactSphere"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl'>View Source Code</button></a>
         </motion.p>
         <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={project3img} alt="" />
         </motion.div>
