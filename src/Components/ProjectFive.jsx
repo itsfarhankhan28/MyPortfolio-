@@ -1,5 +1,5 @@
 import React from 'react'
-import project3img from '../Assets/Project3 Demo.png'
+import project5img from '../Assets/Project5 Demo.png'
 import { useRef } from 'react'
 import { useScroll, useTransform } from 'framer-motion'
 import { motion } from 'framer-motion'
@@ -87,7 +87,7 @@ const ProjectFive = () => {
             <a target='_blank' href="https://contact-app-beta-khaki.vercel.app/"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl mr-3'>Visit Website</button></a>
             <a target='_blank' href="https://github.com/itsfarhankhan28/ContactSphere"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl'>View Source Code</button></a>
         </motion.p>
-        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={project3img} alt="" />
+        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={project5img} alt="" />
         </motion.div>
     </section>   
     </>
