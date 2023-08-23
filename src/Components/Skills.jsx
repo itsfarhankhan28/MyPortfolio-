@@ -55,10 +55,6 @@ const Skills = () => {
             <h1 className='xxsm:text-[10px] md:text-[15px]'>MONGODB</h1>
           </div>
           <div className='m-8 text-center flex flex-col gap-1 items-centers justify-center'>
-            <img className='xxsm:w-[60px] md:w-[100px]' src="https://skillicons.dev/icons?i=postgresql" alt="" />
-            <h1 className='xxsm:text-[10px] md:text-[15px]'>POSTGRESQL</h1>
-          </div>
-          <div className='m-8 text-center flex flex-col gap-1 items-centers justify-center'>
             <img className='xxsm:w-[60px] md:w-[100px]' src="https://skillicons.dev/icons?i=markdown" alt="" />
             <h1 className='xxsm:text-[10px] md:text-[15px]'>MARKDOWN</h1>
           </div>
