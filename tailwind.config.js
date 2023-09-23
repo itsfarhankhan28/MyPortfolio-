@@ -27,7 +27,9 @@ module.exports = {
     },
     extend: {
       fontFamily:{
-        herofont:['Prompt']
+        herofont:['Prompt'],
+        sign:['Taprom'],
+        about:['Lemon']
       },
       colors:{
         'custom-brown':'#E3DFDB',
