@@ -16,6 +16,8 @@ import BlogsContent from './Components/BlogsContent';
 import ProjectThree from './Components/ProjectThree';
 import ProjectFourth from './Components/ProjectFourth';
 import ProjectFive from './Components/ProjectFive';
+import Aboutme from './Components/Aboutme';
+import Aboutmecontent from './Components/Aboutmecontent';
 // import { ScrollerMotion } from 'scroller-motion';
 // import SmoothScroll from './Components/SmoothScroll';
 
@@ -46,6 +48,8 @@ function App() {
       </div>
       <Blogs/>
       <BlogsContent/>
+      <Aboutme/>
+      <Aboutmecontent/>
     </>
   );
 }
