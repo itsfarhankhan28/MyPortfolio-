@@ -91,7 +91,7 @@ const ProjectTwo = () => {
         className='flex lg:w-[1000px] md:w-[700px] xxsm:w-[350px] xxsm:text-center lg:text-left lg:flex-row xxsm:flex-col justify-center items-center mx-auto pt-20 lg:gap-10'>
             <motion.img 
             style={{opacity , scale , x}}
-            className='md:w-[50%] xxsm:w-fit my-auto' src={project2img} alt="" />
+            className='md:w-[50%] xxsm:w-fit my-auto' src={project2img.src} alt="" />
             <motion.p 
             style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}}
             className='font-herofont xxsm:w-fit md:w-[50%] my-auto pt-20'>

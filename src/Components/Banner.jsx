@@ -26,7 +26,7 @@ const Banner = () => {
         delay:6
     }}}
     className='flex xxsm:flex-col justify-center items-center lg:flex-row  w-[850px] fixed z-10'>
-        <motion.img className='md:w-[60%] xxsm:w-[40%]' src={portfolioimg} alt="" />
+        <motion.img className='md:w-[60%] xxsm:w-[40%]' src={portfolioimg.src} alt="" />
         <motion.p className='w-[45%] text-left font-herofont md:text-[25px] xxsm:text-[20px] leading-[35px] mb-12 font-semibold lg:text-left xxsm:text-center'>A passionate and motivated web developer . Dedicated to creating user friendly , visually appealing and responsive website.</motion.p>
     </motion.div>  
     </>

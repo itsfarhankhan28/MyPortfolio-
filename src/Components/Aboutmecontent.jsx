@@ -7,7 +7,7 @@ const Aboutmecontent = () => {
     <div className='h-screen bg-Mischka'>
         <div className='mx-auto flex justify-center items-center text-center'>
           <div className='w-[70%] h-screen flex items-end'>
-            <img className='items-start w-full ' src={aboutmeimg} alt="" />
+            <img className='items-start w-full ' src={aboutmeimg.src} alt="" />
           </div>
             <p className='w-[30%] h-screen flex justify-center items-center flex-col gap-4'>
               <h1 className='font-about text-[70px]'>About Me</h1>

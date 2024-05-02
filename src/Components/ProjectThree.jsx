@@ -88,7 +88,7 @@ const ProjectThree = () => {
             <a target='_blank' href="https://my-blog-app-six.vercel.app/"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl mr-3'>Visit Website</button></a>
             <a target='_blank' href="https://github.com/itsfarhankhan28/MyBlogApp"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl'>View Source Code</button></a>
         </motion.p>
-        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={project3img} alt="" />
+        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={project3img.src} alt="" />
         </motion.div>
     </section>   
     </>

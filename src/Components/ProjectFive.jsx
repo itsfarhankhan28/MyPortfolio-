@@ -87,7 +87,7 @@ const ProjectFive = () => {
             <a target='_blank' href="https://contact-app-beta-khaki.vercel.app/"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl mr-3'>Visit Website</button></a>
             <a target='_blank' href="https://github.com/itsfarhankhan28/ContactSphere"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl'>View Source Code</button></a>
         </motion.p>
-        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={project5img} alt="" />
+        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={project5img.src} alt="" />
         </motion.div>
     </section>   
     </>

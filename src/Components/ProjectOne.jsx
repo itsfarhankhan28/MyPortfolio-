@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import projectimg1 from '../Assets/Project1 Demo.png'
 import { useRef } from 'react'
@@ -92,7 +93,7 @@ const ProjectOne = () => {
             <a target='_blank' href="https://recipe-website-lovat.vercel.app/"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl mr-3'>Visit Website</button></a>
             <a target='_blank' href="https://github.com/itsfarhankhan28/RecipeWebsite"><button className='border border-black md:px-8 mt-3 font-semibold rounded-xl z-50'>View Source Code</button></a>
         </motion.p>
-        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={projectimg1} alt="" />
+        <motion.img style={{opacity , scale , x}}  className='md:w-[50%] xxsm:w-fit my-auto' src={projectimg1.src} alt="" />
         </motion.div>
     </section>  
     </>
