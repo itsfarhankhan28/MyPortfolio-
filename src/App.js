@@ -40,7 +40,7 @@ function App() {
       <ProjectTwo/>
       <ProjectThree/>
       <ProjectFourth/>
-      <ProjectFive/>
+      {/* <ProjectFive/> */}
       </div>
       <MySkills/>
       <div className='relative'>
