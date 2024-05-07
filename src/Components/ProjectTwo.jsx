@@ -96,10 +96,10 @@ const ProjectTwo = () => {
             style={{opacity:paragraph1Opacity,y:paragraph1TranslateY}}
             className='font-herofont xxsm:w-fit md:w-[50%] my-auto pt-20'>
             <h1 className='md:text-[35px] lg:text-[40px] xxsm:text-[25px]'>Project 02</h1>
-            <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>ReactAir</h1>
-            <p className='leading-[30px] font-semibold'>Discover the future of web development through the Airbnb clone, brought to life with React.js and Tailwind.CSS. Seamlessly blending functionality and style, this project showcases the synergy of modern tools. Explore now 🌍🌎🌏</p>
-            <a target='_blank' href="https://github.com/itsfarhankhan28/CloneWeb/tree/master/cloneweb"><button className='border border-black bg-Mischka md:px-8 py-4 mt-3 font-semibold rounded-xl mr-3'>View Source Code</button></a>
-            <a target='_blank' href="https://clone-web-liart.vercel.app/"><button className='border border-black bg-Mischka md:px-8 py-4 mt-3 font-semibold rounded-xl'>Visit Website</button></a>
+            <h1 className='md:text-[40px] lg:text-[55px] xxsm:text-[35px] font-semibold'>CineBase</h1>
+            <p className='leading-[30px] font-semibold'>CineBase is your go-to movie companion, offering a user-friendly platform that provides a treasure trove of information about movies. Much like IMDB, our website empowers users to explore a vast world of cinematic experiences.</p>
+            <a target='_blank' href="https://github.com/itsfarhankhan28/CineBase"><button className='border border-black bg-Mischka md:px-8 py-4 mt-3 font-semibold rounded-xl mr-3'>View Source Code</button></a>
+            <a target='_blank' href="https://cine-base.vercel.app/"><button className='border border-black bg-Mischka md:px-8 py-4 mt-3 font-semibold rounded-xl'>Visit Website</button></a>
             </motion.p>
         </motion.div>
     </div>
