@@ -1,12 +1,15 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-target-blank */
 import { useState } from "react";
-import {AiFillGithub , AiFillDribbbleCircle} from 'react-icons/ai'
+import {AiFillGithub} from 'react-icons/ai'
 import {FaDev} from 'react-icons/fa'
-import {RiComputerFill} from 'react-icons/ri'
+import { FaLinkedin } from "react-icons/fa";
+import { FaFilePen } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-function App() {
+function App({workRef}) {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const HamburgerMenu = <GiHamburgerMenu 
@@ -19,6 +22,12 @@ function App() {
                       size='40px' 
                       className=' cursor-pointer px-3 h-[70px] w-[70px]' 
                       onClick={()=>setToggleMenu(!toggleMenu)}/>
+
+
+                      const scrollToSection = (ref) => {
+                        console.log(ref)
+                        ref.current.scrollIntoView({ behavior: 'smooth' });
+                      };
 
   return (
     <div className="app">
@@ -39,10 +48,10 @@ function App() {
               </div>
               {/* primary */}
               <div className="hidden lg:flex gap-5 absolute right-[10%]">
-              <a href="/" className="text-xl font-herofont cursor-pointer"><h1>Home</h1></a>
-              <a href='/' className=" text-xl font-herofont cursor-pointer "><h1>Work</h1></a>
-              <a href='/' className=" text-xl font-herofont  cursor-pointer">Skills</a>
-              <a href='/' className="text-xl font-herofont  cursor-pointer">Blogs</a>
+              <a target="_blank" href="https://github.com/itsfarhankhan28" className="text-3xl font-herofont cursor-pointer"><AiFillGithub/></a>
+              <a target="_blank" href="https://www.linkedin.com/in/farhan-khan-developer" className=" text-3xl font-herofont cursor-pointer "><FaLinkedin/></a>
+              <a target="_blank" href="https://dev.to/itsfarhankhan28" className=" text-3xl font-herofont  cursor-pointer"><FaDev/></a>
+              <a target="_blank" href="https://my-blog-app-six.vercel.app/" className="text-3xl font-herofont  cursor-pointer"><FaFilePen/></a>
               </div>
             </div>
             {/* secondary */}
@@ -74,18 +83,22 @@ function App() {
           }`}
         >
           <div className="px-8 my-28 ">
-            <div className="flex flex-col gap-8 font-bold tracking-wider">
-              <a className="gap-3 text-center" href='/'>
-                <h1 className="font-semibold font-herofont text-3xl">Home</h1>
+            <div className="flex flex-col justify-start items-start gap-8 font-bold tracking-wider">
+              <a target="_blank" href="https://github.com/itsfarhankhan28" className="flex gap-2 items-center justify-center">
+                <h1 className="text-3xl font-herofont cursor-pointer"><AiFillGithub/></h1>
+                <h1 className="font-semibold text-xl font-herofont">Github</h1>
               </a>
-              <a className="gap-3 text-center" href='/'>
-                <h1 className="font-semibold font-herofont text-3xl">Work</h1>
+              <a target="_blank" href="https://www.linkedin.com/in/farhan-khan-developer" className="flex gap-2 items-center justify-center">
+                <h1 className=" text-3xl font-herofont cursor-pointer "><FaLinkedin/></h1>
+                <h1 className="font-semibold text-xl font-herofont">LinkedIn</h1>
               </a>
-              <a className="gap-3 text-center" href='/'>
-                <h1 className="font-semibold font-herofont text-3xl">Skills</h1>
+              <a target="_blank" href="https://dev.to/itsfarhankhan28" className="flex gap-2 items-center justify-center">
+                <h1 className=" text-3xl font-herofont  cursor-pointer"><FaDev/></h1>
+                <h1 className="font-semibold text-xl font-herofont">Dev</h1>
               </a>
-              <a className="gap-3 text-center" href='/'>
-                <h1 className="font-semibold font-herofont text-3xl">Blogs</h1>
+              <a target="_blank" href="https://my-blog-app-six.vercel.app/" className="flex gap-2 items-center justify-center">
+                <h1 className="text-3xl font-herofont  cursor-pointer"><FaFilePen/></h1>
+                <h1 className="font-semibold text-xl font-herofont">Blogs Website</h1>
               </a>
             </div>
           </div>
