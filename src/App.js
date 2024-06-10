@@ -15,26 +15,32 @@ import Blogs from './Components/Blogs';
 import BlogsContent from './Components/BlogsContent';
 import ProjectThree from './Components/ProjectThree';
 import ProjectFourth from './Components/ProjectFourth';
-import ProjectFive from './Components/ProjectFive';
+// import ProjectFive from './Components/ProjectFive';
 import Aboutme from './Components/Aboutme';
 import Aboutmecontent from './Components/Aboutmecontent';
 // import { ScrollerMotion } from 'scroller-motion';
 // import SmoothScroll from './Components/SmoothScroll';
+import { useRef } from 'react';
 
 function App() {
 
   const projectref = React.createRef()
   const herosectionref = React.createRef()
 
+  const projectRef = useRef(null)
+  const skillsRef = useRef(null)
+  const blogsRef = useRef(null)
+  const aboutRef = useRef(null)
+
   return (
     <>
       <div>
-      <Navbar/>
+      <Navbar workRef={projectRef}/>
       </div>
       <Herosection ref={herosectionref} heading1="Hello" heading2="I am Farhan Khan"
       para1="A passionate and motivated web" para2="developer . I am dedicated to creating"
       para3="user friendly , visually appealing and" para4="responsive website."/>
-      <Projects ref={projectref}/>
+      <Projects ref={projectref} reference={projectRef}/>
       <div className='overflow-hidden'>
       <ProjectOne/>
       <ProjectTwo/>
