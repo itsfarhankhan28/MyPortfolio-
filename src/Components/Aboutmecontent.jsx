@@ -5,11 +5,11 @@ const Aboutmecontent = () => {
   return (
     <>
     <div className='h-screen bg-Mischka'>
-        <div className='mx-auto flex justify-center items-center text-center'>
-          <div className='w-[70%] h-screen flex items-end'>
+        <div className='mx-auto flex justify-center items-center xxsm:flex-col-reverse md:flex-row text-center'>
+          <div className='md:w-[70%] md:h-screen flex items-end'>
             <img className='items-start w-full ' src={aboutmeimg.src} alt="" />
           </div>
-            <p className='w-[30%] h-screen flex justify-center items-center flex-col gap-4'>
+            <p className='md:w-[30%] md:h-screen flex justify-center items-center flex-col gap-4'>
               <h1 className='font-about text-[70px]'>About Me</h1>
               <p className='font-about text-lg'>
               I'm Farhan Khan, a passionate Full Stack web developer who thrives on the excitement of creating dynamic web applications. My journey in web development has been an incredible adventure where each project in the MERN stack has contributed to my growth. Whether it's building feature-rich recipe platforms or movies review application like IMDB, every project has been a milestone in my technical journey. I believe in continuous learning, constantly seeking emerging technologies and best practices to enhance user experiences.
