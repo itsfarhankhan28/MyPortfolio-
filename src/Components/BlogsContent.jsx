@@ -19,7 +19,7 @@ const BlogsContent = () => {
                     </div>
                     <div className='mt-2 flex items-center gap-1'>
                         <img className='h-[20px]' src={eye} alt="" />
-                        <h1 className='font-bold text-xl'>2215</h1>
+                        <h1 className='font-bold text-xl'>2964</h1>
                     </div>
                 </div>
                 <div className='flex items-center gap-1 hover:gap-2 mt-3'>
@@ -40,7 +40,7 @@ const BlogsContent = () => {
                     </div>
                     <div className='mt-2 flex items-center gap-1'>
                         <img className='h-[20px]' src={eye} alt="" />
-                        <h1 className='font-bold text-xl'>93</h1>
+                        <h1 className='font-bold text-xl'>300</h1>
                     </div>
                 </div>
                 <div className='flex items-center gap-1 hover:gap-2 mt-3'>
@@ -59,7 +59,7 @@ const BlogsContent = () => {
                     </div>
                     <div className='mt-2 flex items-center gap-1'>
                         <img className='h-[20px]' src={eye} alt="" />
-                        <h1 className='font-bold text-xl'>25</h1>
+                        <h1 className='font-bold text-xl'>147</h1>
                     </div>
                 </div>
                 <div className='flex items-center gap-1 hover:gap-2 mt-3'>
@@ -74,11 +74,11 @@ const BlogsContent = () => {
                 <div className='flex gap-5'>
                     <div className='mt-2 flex items-center gap-1'>
                         <img className='h-[20px]' src={heart} alt="" />
-                        <h1 className='font-bold text-xl'>6</h1>
+                        <h1 className='font-bold text-xl'>9</h1>
                     </div>
                     <div className='mt-2 flex items-center gap-1'>
                         <img className='h-[20px]' src={eye} alt="" />
-                        <h1 className='font-bold text-xl'>67</h1>
+                        <h1 className='font-bold text-xl'>1275</h1>
                     </div>
                 </div>
                 <div className='flex items-center gap-1 hover:gap-2 mt-3'>
@@ -93,7 +93,26 @@ const BlogsContent = () => {
                 <div className='flex gap-5'>
                     <div className='mt-2 flex items-center gap-1'>
                         <img className='h-[20px]' src={heart} alt="" />
-                        <h1 className='font-bold text-xl'>6</h1>
+                        <h1 className='font-bold text-xl'>4</h1>
+                    </div>
+                    <div className='mt-2 flex items-center gap-1'>
+                        <img className='h-[20px]' src={eye} alt="" />
+                        <h1 className='font-bold text-xl'>81</h1>
+                    </div>
+                </div>
+                <div className='flex items-center gap-1 hover:gap-2 mt-3'>
+                    <button className='font-herofont font-bold text-xl'><a href="https://dev.to/itsfarhankhan28/how-to-become-an-astro-developer-3cj2">Visit Blog</a></button>
+                    <img className='w-[25px] h-[15px]' src={arrow} alt="" />
+                </div>
+            </div>
+
+            <div className='w-[400px] h-auto shadow-2xl rounded-3xl p-5 z-30' >
+                <h1 className='font-herofont text-[25px]'>Blog 06</h1>
+                <p className='text-[30px] font-herofont font-bold'>How to Deploy and Host Your Website Cost-Effectively with Vercel 💰💰</p>
+                <div className='flex gap-5'>
+                    <div className='mt-2 flex items-center gap-1'>
+                        <img className='h-[20px]' src={heart} alt="" />
+                        <h1 className='font-bold text-xl'>5</h1>
                     </div>
                     <div className='mt-2 flex items-center gap-1'>
                         <img className='h-[20px]' src={eye} alt="" />
@@ -101,7 +120,7 @@ const BlogsContent = () => {
                     </div>
                 </div>
                 <div className='flex items-center gap-1 hover:gap-2 mt-3'>
-                    <button className='font-herofont font-bold text-xl'><a href="https://dev.to/itsfarhankhan28/how-to-become-an-astro-developer-3cj2">Visit Blog</a></button>
+                    <button className='font-herofont font-bold text-xl'><a href="https://dev.to/itsfarhankhan28/how-to-deploy-and-host-your-website-cost-effectively-with-vercel-5ejk">Visit Blog</a></button>
                     <img className='w-[25px] h-[15px]' src={arrow} alt="" />
                 </div>
             </div>
